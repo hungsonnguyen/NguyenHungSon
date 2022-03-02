@@ -5,47 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f399ba3-6dec-4aab-9afd-737be8632d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SaveMailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/java/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/java/model/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/ung_dung_login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Thuc_hanh/upload_file/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/src/main/java/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/src/main/java/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/form_va_data_binding/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/controller/YteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/model/FormYt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/service/FormYtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/service/FormYtServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -215,7 +193,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646205200320</updated>
-      <workItem from="1646205202453" duration="8659000" />
+      <workItem from="1646205202453" duration="9760000" />
+      <workItem from="1646231367439" duration="2357000" />
     </task>
     <servers />
   </component>
@@ -232,5 +211,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
