@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hiển thị các số nguyên tố đầu tiên</title>
+</head><h2>[Bài tập] Hiển thị các số nguyên tố đầu tiên</h2>
+<body>
+<script>
+    //Trong phần này, chúng ta sẽ phát triển một ứng dụng cho phép hiển thị 20 số nguyên tố đầu tiên.
+    let numbers = 20;
+    let n = 2 //"là số cần kiểm tra có phải là số nguyên tố hay không";
+    let count =0;
+    let i;
+    while(count<numbers){
+        yes = 1;
+        for (i=2;i<=Math.sqrt(n);i++) {
+            if (n % i === 0) {
+               yes =0;
+                break;
+            }
+        }
+        if(yes) {
+            document.write(" " +n);
+            count++;
+        }
+       n++;
+    }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

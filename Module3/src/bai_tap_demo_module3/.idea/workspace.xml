@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a484585-61af-4f53-b4ad-0b8c3b8154a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/config/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/model/ColorProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/ColorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/impl/ColorRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/ColorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/Impl/ColorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/bootstrap413/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/editor.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/bubble.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/datetime.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/envelope.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/fields.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/inline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/processing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/css/scss/upload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/editor.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/assert/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thi_ket_thuc_module/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ColorProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ColorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ColorRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ColorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ColorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/bootstrap413/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/editor.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/bubble.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/datetime.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/envelope.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/fields.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/inline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/processing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/css/scss/upload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/editor.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assert/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/config/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/java/config/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/bootstrap413/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/editor.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/bubble.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/datetime.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/envelope.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/fields.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/inline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/processing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/css/scss/upload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/editor.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi_thu_module3/src/main/webapp/assert/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/src/test/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/src/test/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Infomaition/Câu hỏi audit module 3-Database.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Infomaition/Câu hỏi audit module 3-Database.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/model/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/model/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/repository/impl/customer/CusotomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/repository/impl/customer/CusotomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/repository/impl/customer/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/repository/impl/customer/ICustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/service/customer_service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/service/customer_service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/service/customer_service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/classes/java/main/service/customer_service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/libs/case_study-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/libs/case_study-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/model/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/model/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/repository/impl/customer/CusotomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/repository/impl/customer/CusotomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/repository/impl/customer/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/repository/impl/customer/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/service/customer_service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/service/customer_service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/service/customer_service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/java/service/customer_service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/classes/java/main/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/classes/java/main/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/libs/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/libs/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_JDBC_CRUD/Thuc_hanh/quan_ly_user_su_dung_jsp_servlet_jdbc_mysql/src/main/java/controller/UserServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="25SSlBcxOCpKjjkGRBbfQR5s37s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code Gym\Module 1\Github\Module3\src\bai_tap_demo_module3\src\main\webapp\product" />
+      <recent name="E:\Code Gym\Module 1\Github\Module3\src\bai_tap_demo_module3\src\main\java\repository" />
+      <recent name="E:\Code Gym\Module 1\Github\Module3\src\bai_tap_demo_module3\src\main\java" />
+      <recent name="E:\Code Gym\Module 1\Github\Module3\src\bai_tap_demo_module3\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code Gym\Module 1\Github\Module3\src\bai_tap_demo_module3\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : bai_tap_demo_module3-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7ca481e2-7286-45e4-b2cf-468368aa7c2e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4242" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : bai_tap_demo_module3-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a484585-61af-4f53-b4ad-0b8c3b8154a3" name="Changes" comment="" />
+      <created>1645519144697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645519144697</updated>
+      <workItem from="1645519147052" duration="5828000" />
+      <workItem from="1645532060513" duration="9405000" />
+      <workItem from="1645575615107" duration="7051000" />
+      <workItem from="1645627176334" duration="1692000" />
+      <workItem from="1645664664566" duration="4318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/repository/ProductRepositoryImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

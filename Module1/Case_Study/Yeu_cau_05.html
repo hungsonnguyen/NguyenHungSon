@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V.	Yêu cầu 5 (Mảng 2 chiều)</title>
+</head><h2>V.	Yêu cầu 5 (Mảng 2 chiều)</h2>
+<body>
+<script>
+    //Bài 1: Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n.
+    // Với m, n là các số nhập từ bàn phím.
+
+    // let m = parseInt(prompt("Nhập số hàng"));
+    // let n = parseInt(prompt("Nhập số cột"));
+    // let array = new Array(m);
+    // let sum = 0
+    // console.log(array)
+    // for (let i = 0; i < array.length; i++){
+    //     array[i] = new Array(n);
+    //     for(let j = 0; j < array[i].length; j++){
+    //         array[i][j] = parseInt(prompt("Nhập hàng thứ " + i + "phần tử " + j));
+    //         if(array[i][j] %2 == 0){
+    //             sum +=array[i][j];
+    //         }
+    //     }
+    // }console.log("Tổng số chẵn trong ma trận "+ m +"x"+ n+" là "+sum)
+    //  console.table(array)
+
+
+
+
+    //Bài 2: Viết hàm liệt kê các số nguyên tố trong mảng 2 chiều,
+    // đếm các số nguyên tố có trong mảng đó.
+
+    // let m = parseInt(prompt("Nhập số hàng"));
+    // let n = parseInt(prompt("Nhập số cột"));
+    // let array = new Array(m);
+    // let count = 0;
+    // let sum = 0
+    // console.log(array)
+    // let flas = true;
+    // let mangNguyenTo = [];
+    // for (let i = 0; i < array.length; i++){
+    //
+    //     array[i] = new Array(n);
+    //     for(let j = 0; j < array[i].length; j++){
+    //         array[i][j] = parseInt(prompt("Nhập hàng thứ " + i + "phần tử " + j));
+    //         for (let x = 2; x <= Math.sqrt(array[i][j]) ;x++){
+    //             if(array[i][j] %x ===0){
+    //                 flas = false;
+    //                 break;
+    //             }
+    //             flas = true;
+    //         }if (flas&&array[i][j] >=2){
+    //             count++;
+    //             mangNguyenTo.push(array[i][j])
+    //         }
+    //     }
+    // }
+    // console.log(mangNguyenTo);
+    // console.log(count)
+
+    //Bài 3: Viết hàm tìm giá trị lớn nhất, nhỏ nhất trong mảng 2 chiều
+    //
+    // let a = [[1, 2, 1, 24],
+    //         [8, 11, 9, 4],
+    //         [7, 0, 7, 27],
+    //         [7, 4, 28, 14],
+    //         [3, 10, 26, 7]];
+    // let temp = a[0];
+    // let b = [];
+    // console.log(b)
+    // for(let i =0; i< a.length; i++){
+    //     b = b.concat(a[i]);
+    // }console.log(b);
+    // let max = b[0];
+    // let min = b[0]
+    // for(let i= 1 ; i < b.length; i++){
+    //     if (b[i]>max){
+    //         max = b[i];
+    //     }
+    //     if (b[i]<min){
+    //         min = b[i];
+    //     }
+    // }console.log("Max : " + max);
+    // console.log("Min : " + min)
+
+
+    let a = [[1, 2, 1, 24],
+            [8, 11, 9, 4],
+            [7, 0, 7, 27],
+            [7, 4, 28, 14],
+            [3, 10, 26, 7]];
+    let max = a[0][0];
+    let min = a[0][0];
+    for(let i= 0 ; i < a.length; i++){
+        for(let j = 1 ; j<a[i].length; j++){
+            if (a[i][j]>max){
+                max = a[i][j];
+            }
+            if (a[i][j]<min){
+                min = a[i][j];
+            }
+        }
+    }console.log("Max : " + max);
+    console.log("Min : " + min)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

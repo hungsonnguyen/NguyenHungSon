@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Chuyển đổi nhiệt độ</title>
+</head><h2>Temperrature Converter</h2>
+<body>
+<p>
+    <label>Fahrenheit</label>
+    <input id="inPutFahrenheit" type="number" placeholder="Fahrenheit"
+    oninput="teemperatureConverter()"
+    onchange="teemperatureConverter()">
+</p>
+<p>Celius: <span id="outputCelsius"></span> </p>
+<script>
+    function teemperatureConverter(valNum) {
+        valNum = parseFloat(document.getElementById('inPutFahrenheit').value);
+        document.getElementById('outputCelsius').innerHTML = (valNum-32)/1.8;
+    }
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

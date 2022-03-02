@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quy đổi tiền tệ</title>
+</head><h2>Ứng dụng quy đổi tiền tệ</h2>
+<body>
+<form>
+    <table border="1">
+        <tr>
+        <td>Ammount</td>
+        <td>From Currency</td>
+        <td>To Currency</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="t1"></td>
+            <td><select id="s1">
+                <option value="vnd">Việt Nam</option>
+                <option value="dollar">Mỹ</option>
+            </select></td>
+            <td><select id="s2">
+                <option value="dollar">Mỹ</option>
+                <option value="vnd">Việt Nam</option>
+            </select></td>
+            <td><button type="button" onclick="myfunction()">Try it</button></td>
+        </tr>
+    </table>
+    <p id="Result"></p>
+</form>
+<script>
+    function myfunction() {
+        var s1 = document.getElementById('s1').value;
+        var s2 = document.getElementById('s2').value;
+        var n1 = document.getElementById('t1').value;
+        var usd = 23000;
+        var result;
+
+        if (s1 == "vnd" && s2 == "vnd") {
+            result = n1 * 1;
+            document.getElementById('Result').innerHTML = "Result:" + result;
+        }else if (s1 == "vnd" && s2 == "dollar"){
+            result = n1 /usd;
+            document.getElementById('Result').innerHTML = "Result:" + result;
+        }else if (s1 == "dollar" && s2 == "vnd"){
+        result = n1*usd;
+        document.getElementById('Result').innerHTML = "Result:" + result;
+    }   else if (s1 == "dollar" && s2 == "dollar"){
+            result = n1*1;
+            document.getElementById('Result').innerHTML = "Result:" + result;
+        }
+    }
+
+
+</script>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Luyện tập vòng lặp 02</title>
+</head><h2>[*Bài tập] Luyện tập vòng lặp 02</h2>
+<body>
+<script>
+    // Bài 1: Hiển thị ra dãy số trong dãy fibonacci đầu tiên.
+    // Công thức truy hồi của dãy fibonacci có dạng:
+    // f(n) = f(n-1) + f(n-2) .
+
+    // let a =1;
+    // let b =0;
+    // let c;
+    // let count =0
+    // let number = prompt("Nhập số chữ số cần hiển thị")
+    // while (count<number){
+    //     c = a+ b;
+    //     document.write(a+"<br>");
+    //     b = a;
+    //     a = c;
+    //     count++
+    // }
+
+
+    // Bài 2: Tính giai thừa của một số nguyên dương
+    // let sonNuyen = prompt("Nhập số nguyên dương");
+    // let count = 0;
+    // let n=1;
+    // while (count<=sonNuyen){
+    //     count++
+    //     n*=count;
+    //     console.log(count);
+    // }document.write(n)
+
+    // Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau
+
+    // let n = 5
+    // for ( let i=0;i<n;i++){
+    //      for (let j=0;j<=i;j++){
+    //         document.write("*")
+    //     }
+    //     document.write("<br>")
+    // }
+    // document.write("<br>");
+    // for ( let i=0;i<n;i++){
+    //     for (let j=n;j>i;j--){
+    //         document.write("*")
+    //     }
+    //     document.write("<br>")
+    // }
+    //
+    // document.write("<br>");
+    // for ( let i=0;i<n;i++){
+    //     for (let k =n ; k>i ; k--){
+    //         document.write("&nbsp;&nbsp;")
+    //     }
+    //     for (let j=0;j<=i;j++){
+    //         document.write("*")
+    //     }
+    //     document.write("<br>")
+    // }
+    // document.write("<br>");
+    // for ( let i=0;i<n;i++){
+    //     for (let j=0;j<=i;j++){
+    //         document.write("&nbsp;&nbsp;")
+    //     }
+    //     for (let k =n ; k>i ; k--){
+    //         document.write("*")
+    //     }
+    //     document.write("<br>")
+    // }
+
+    // Bài 4: In hình chữ nhật
+    let m = parseInt(prompt("nhap chiều cao m"))
+    let n = parseInt(prompt("nhap chiều rộng n"))
+    for ( let i=0;i<m;i++){
+        for (let j=0;j<n;j++){
+            if ( i==0 || j==0 || i==m-1 || j==n-1 ){
+                document.write("*")
+            }else {document.write("&nbsp;&nbsp;")}
+        }document.write("<br>")
+    }
+
+    //Bài 5: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lại con)
+    // khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.
+
+    // let tienVay = 12000000;
+    // let tienLai;
+    // let tienGoc = tienVay/12;
+    // let tienTra;
+    // let tienCon;
+    // tienCon=tienVay;
+    // for (let i = 0; i<=12 ; i++){
+    //     tienLai = tienCon * 0.05;
+    //     tienTra = tienGoc + tienLai;
+    //     tienCon = tienCon - tienGoc;
+    //
+    //     document.write(i+'<br/>');
+    //     document.write("tiền lãi:"+tienLai+'<br/>');
+    //     document.write("tiền gốc:"+tienGoc+'<br/>');
+    //     document.write("tiền trả:"+tienTra+'<br/>');
+    //     document.write("tiền còn:"+tienCon+'<br/>')
+    // }
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

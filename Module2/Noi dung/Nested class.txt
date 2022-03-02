@@ -1,0 +1,72 @@
+Nested class là một class được khai báo bên trong một class khác.
+Nested class được phân chia thành 2 loại:
+1.Static Nested Classes: là class được khai báo dạng static bên trong một class khác.
+ Cú pháp khai bao như sau:
+ class OuterClass {
+            class StaticInnerClass {
+            ... implment something ....
+            }
+        }
+  Cú pháp để sử dung: OuterClass.StaticInnerClass nestedObject = new OuterClass.StaticInnerClass();
+2.Non-static Nested Classes: bao gồm Innser classes, Local classes and Anonymous Classes.
+ +Inner Classes: là khai bao một class không phải dạng static bên trong một class khác.
+    public class OuterClass {
+        class InnerClass {
+        ... implment something ....
+        }
+        }
+  Cú pháp sử dụng: InnerClass nestedObject = new OuterClass.new InnerClass();
+ +Local Classes là khai báo một class bên trong một method khác.
+  public class OuterClass {
+        public String sayHello(String name) {
+            int cnt = 0; // Trước Java 8 phải được định nghĩa như sau: final int cnt = 0;
+            class WelcomeMessage {
+                WelcomeMessage(){
+                    System.out.println(cnt); // Chỉ sử dụng, không thể thay đổi
+                }
+                String getMessage() {
+                    return "Welcome";
+                }
+
+                void showName(){// Chỉ hợp lệ từ Java 8
+                    System.out.println(name);
+                }
+            }
+            WelcomeMessage msg = new WelcomeMessage();
+            return msg.getMessage() + " " + name + " to the Java world !";
+        }
+
+        public static void main(String[] args) {
+            System.out.println(new OuterClass().sayHello("John"));
+        }
+    }
+  *Một số chú ý với Local classes:
+- Local classes chỉ có thể được sử dụng trong pham vi method định nghĩa ra nó.
+- Bên trong một Local classes chỉ có thể truy cập được các biến của OuterClass nếu nó là static.
+- Từ Java 8 trở đi, bên trong Local classes có thể truy cập được đến giá trị của tham số trong method 
+(hàm showName có thể sử dụng giá trị của tham số name)
+- Các biến khia báo bên trong method khi sử dụng bên trong Local classes có tính chất final, 
+nghĩa là ta chỉ có thể sử dụng mà không thể thay đổi được gia trị của nó.
+ + Anonymous Classes là class giống như Inner classes và Local classes,
+  nó được khai bao bên trong class hoặc method mà không có tên cụ thể.
+  Đây là cách implment 1 interface hoặc abstract class mà không cần phải khai báo một class nào cụ thể.
+ public class OuterClass {
+
+       interface Person {
+          String getName();
+       }
+
+       public void hello(){
+           Person john = new Person(){
+            @Override
+            public String getName() {
+                return "Johnny";
+            }
+           };
+           System.out.println(john.getName());
+        }
+        public static void main(String[] args) {
+            new OuterClass().hello();
+        }
+    }
+*) Chú ý: pham vi truy cập biến của Anonymous class cũng giống với Local class.

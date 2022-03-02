@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Đảo ngược các phần tử trong mảng</title>
+</head><h2>[Thực hành] Đảo ngược các phần tử trong mảng</h2>
+<body>
+<script>
+    let x = [-1, 2, 4, 6, 8, 10];
+    document.write("Mảng ban đầu là : " + x + "<br>");
+    let first = 0;
+    let last = x.length -1;
+    while (first<last){
+        let b = x[first];
+        x[first] = x[last];
+        x[last] = b;
+        first++;
+        last--
+    }document.write("Mảng sau khi đảo ngược là : " +x);
+
+
+
+</script>
+
+</body>
+</html>

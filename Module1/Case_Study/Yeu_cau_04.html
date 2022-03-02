@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IV.	Yêu cầu 4 (String)</title>
+</head><h2>IV.	Yêu cầu 4 (String)</h2>
+<body>
+<script>
+    //Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành xâu
+    // sao cho trong xâu không có 2 dấu cách liền nhau và bắt đầu mỗi từ phải in hoa.
+    // Ví dụ tRuong    TaN   HAI => Truong Tan Hai.
+    //Và một hàm tìm từ dài nhất trong 1 xâu ký tự.
+    // Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím, in ra xâu trước
+    // và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó.
+
+    // let text = "nguyEn        hUnG   sON"
+    // let array = text.split(" ");
+    // let xau = "";
+    // let output = [];
+    // console.log(array)
+    // function toStr() {
+    //     for(let i = 0; i < array.length; i++){
+    //         xau = array[i].trim().toLowerCase();
+    //         if(xau != ""){
+    //             xau = xau.substr(0,1).toUpperCase() + xau.substr(1);
+    //             output.push(xau)
+    //         }
+    //     }
+    // }toStr(array);
+    //     console.log(output)
+    // document.write("Chuỗi ban đầu là : " + text + "<br>");
+    // document.write("Chuỗi đã được chuẩn hóa là : "+ output.join(" ")+ "<br>")
+    //
+    // let maxStr = 0;
+    // let search = " ";
+    // let x = " ";
+    // function maxStrLength() {
+    //     for (let i = 0; i< output.length; i++){
+    //         if (output[i].length > maxStr){
+    //             maxStr = output[i].length;
+    //             search = output[i]
+    //             let x = i
+    //         }
+    //     }
+    // }maxStrLength(output);
+    // document.write("Kí tự dài nhất trong chuỗi vừa tìm được là : " + search +  "<br>" +"Tại vị trí thứ : "+ x+1)
+    //
+
+    //Bài 2: Cho xâu kí tự. Hãy đếm số lượng kí tự khác nhau trong xâu đó
+    // Ví dụ: s = "cabca", thì kết quả differentSymbolsNaive(s) = 3.
+	// Có 3 kí tự khác nhau là a, b và c.
+
+
+
+    // let text1 = "cabcaaasdd"
+    // text1 = text1.split('');
+    // let a = [text1[0]];
+    // for(let i =1; i<text1.length; i++){
+    //     let flas = false;
+    //     for(let j = 0; j<a.length;j++){
+    //         if(text1[i] == a[j]){
+    //             flas = true;
+    //             break;
+    //         }
+    //     }
+    //     if(!flas){
+    //         a.push(text1[i]);
+    //     }
+    // }console.log(a)
+    // document.write("Số kí tự khác nhau là : " + a.length + " kí tự : "+a+ "<br>")
+    // // let b = []
+    // for (let i = 0; i<a.length;i++){
+    //     b[i]=0;
+    // }
+    // console.log(b)
+    // console.log(text1)
+    // for(let i = 0; i<b.length; i++){
+    //     for(let j = 0; j<text1.length;j++){
+    //         if (text1[j] == a[i]){
+    //             b[i]+=1;
+    //         }
+    //     }
+    // }console.log(b)
+    // for(let i = 0; i<b.length; i++){
+    //     document.write("Số kí tự '" + a[i] + "' giống nhau là :"+ b[i]+" kí tự " + "<br>" )
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // let ar1 = []    // mảng thống kê kí tự khác nhau;
+    // let kiTu = '';
+    // let count = 0;  // đếm số kí tự khác nhau
+    // let arrkq = [];  //chứa mảng thống kê;
+    // for (let i = 0; i<=128; i++){
+    //     arrkq[i] = 0;  //khởi tạo phần tử đều bằng 0;
+    // }
+    // function differentSymbolsNaivef() {
+    //     for(let i = 0; i<arrkq.length ; i++){
+    //         if(text1.charCodeAt(i) >= 'a' && text1.charCodeAt(i) <= 'z'){ //kí tự từ a-z
+    //             arrkq[text1.charCodeAt(i) - 32]++;  //chuyển sang kí tự chữ hoa
+    //         }else {arrkq[text1.charCodeAt(i)]++} // các kí tự khác;
+    //     }console.log(arrkq)
+    //     for (let i = 0; i<arrkq.length; i++) {
+    //         if (arrkq[i] > 0) {
+    //             kiTu += "Kí tự ' " + String.fromCharCode(i) + " ': " + arrkq[i] + " kí tự giống nhau " + "<br>";
+    //             count++;
+    //             ar1.push(String.fromCharCode(i));
+    //         }
+    //     }
+    //
+    // }differentSymbolsNaivef(text1);
+    // document.write(kiTu)
+    // document.write("Số kí tự khác nhau là : "+count + " kí tự" + "<br>");
+    // document.write("Kí tự khác nhau là : "+ ar1);
+
+    // Bài 3: Cho hai xâu kí tự, tìm số lượng kí tự chung giữa chúng.
+    // Ví dụ: s1 = "aabcc" và s2 = "adcaa",
+    // thì kết quả commonCharacterCount(s1, s2) = 3.
+	// 2 xâu s1 và s2 có 3 kí tự chung: 2 kí tự 'a' và 1 kí tự 'c'.
+
+    let  s1 = "aabcc"
+    let  s2 = "adcaa"
+    s1 = s1.split("");
+    s2 = s2.split("");
+    let arr = [];
+    for(let i =0; i<s1.length; i++){
+        for(let j = 0; j<s2.length;j++){
+            if(s1[i]==s2[j]){
+                arr.push(s1[i]);
+                s2.splice(j,1);
+                break;
+            }
+        }
+    }console.log(arr)
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

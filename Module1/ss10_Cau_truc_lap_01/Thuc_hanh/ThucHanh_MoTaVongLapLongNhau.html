@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Sử dụng vòng lặp lồng nhau</title>
+</head><h2>[Thực hành] Sử dụng vòng lặp lồng nhau</h2>
+<body>
+
+<script>
+   let square= "<table border='1' width='400' height='400' cellspacing'0' cellpadding='3'>"
+    for (i=1;i<=10;i++){
+        square = square + "<tr>";
+        for (j=1;j<=10;j++){
+            square = square +"<td>"  + i*j +"</td>";
+            console.log(square)
+        }
+    }console.log(square);
+    square = square + "</table>";
+    document.write(square);
+
+
+
+</script>
+</body>
+</html>

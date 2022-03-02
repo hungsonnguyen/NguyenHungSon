@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành sự kiện bàn phím</title>
+</head>
+<body onload="doReady()">
+<form>
+   <img style="position: absolute;left: 0;top: 0" height="100" width="120"
+           id="ball"  src=https://i1-vnexpress.vnecdn.net/2019/03/02/bai-toan-3768-1551057063-6906-1551496131.png?w=680&h=0&q=100&dpr=1&fit=crop&s=DCb92KCZXTb4pXmEe1zPXw />
+</form>
+    <script>
+        var element = document.getElementById("ball");
+    function upArrowPressed() {
+        element.style.top= parseInt(element.style.top) -5+"px";
+    }
+    function downArrowPressed() {
+        element.style.top= parseInt(element.style.top) +5+"px";
+    }
+    function leftArrowPressed() {
+        element.style.left= parseInt(element.style.left) -5 + "px";
+    }
+    function rightArrowPressed() {
+    element.style.left = parseInt(element.style.left)  +5 + "px";
+    }
+    function moveselection(presskey) {
+        switch (presskey.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
+    }
+    }
+    function doReady() {
+        window.addEventListener('keydown', moveselection)
+    }
+</script>
+
+</body>
+</html>

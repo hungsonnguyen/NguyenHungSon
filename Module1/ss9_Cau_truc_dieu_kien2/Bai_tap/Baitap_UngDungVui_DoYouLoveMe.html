@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng vui DoYouLoveMe</title>
+</head>
+<body>
+
+
+<form>
+    <p style="position: absolute; left: 300px; top: 150px">Do You Love Me</p>
+    <input style="position: absolute; left: 300px; top: 200px" type="button" id="yes" value="Yes" onclick="qwe()"/>
+    <input style="position: absolute; left: 350px; top: 200px" type="button" id="n" value="No" onmouseover="ada()"/>
+
+</form>
+<script>
+    function qwe(){
+    alert("Yeah! You're right")
+    }
+   function ada() {
+     let x = document.getElementById("n");
+       let a = Math.round(Math.random() * window.innerWidth);
+       let b = Math.round(Math.random() * window.innerHeight);
+          x.style.left= a + 'px';
+          x.style.top= b + 'px';
+}
+</script>
+</body>
+</html>

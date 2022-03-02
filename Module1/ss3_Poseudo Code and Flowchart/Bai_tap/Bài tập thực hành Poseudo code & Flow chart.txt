@@ -1,0 +1,59 @@
+1). Bài thực hành thuật toán game đoán số
+	
+	Begin
+		INPUT n là số tự nhiên trong khoảng 0-9
+			Nhập vào M
+		IF n = = M
+			DISPLAY "Dự đoán đúng"
+		ELSE
+			DISPLAY "Dự đoán sai"
+	End		
+2). Bài thực hành thuật toán chuyển đổi nhiệt độ
+
+	Begin
+		INPUT Nhập vào C
+		DO F = ( 9 * C) / 5 + 32
+		DISPLAY "Hiển thị F"
+	End
+3). Bài toán mô tả thuật toán tính điểm trung bình
+	Begin
+		INPUT	 A là điểm môn Toán
+			B là điểm môn Hóa
+			C là điểm môn Lý
+		Do avg = ( A + B + C ) / 3
+		DISPLAY "điểm trung bình avg"
+	End
+4). Bài toán mô tả thuật toán tìm giá trị lớn nhất trong 3 số
+
+	Begin
+		INPUT	 a , b, c là 3 số
+			a = max
+		IF b > max
+			DO max = b
+			IF c > max
+				Display max
+	End
+5). Bài toán mô tả thuật toán tìm giá trị lớn nhất trong dãy số
+	Begin
+		INPUT 	a1, a2, a3,..., an
+			i là só chữ số của dãy số
+		Gán max = a1
+		Gán i = 2
+		While  
+		DO
+		IF i > n
+		DISPLAY "max"
+		ELSE
+			IF ai > max
+			 max = ai
+			  i = i + 1	
+		End DO
+		End IF
+	End
+6). Bài toán mô tả thuật toán chuyển đổi tiền tệ.
+	Begin
+		INPUT USD
+		VND = 23000 * USD
+	DISPLAY "VND"
+	End
+				

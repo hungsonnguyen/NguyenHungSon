@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</title>
+</head><h2>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</h2>
+<body>
+<canvas id="coverPage" width="400" height="200" style='border: solid'></canvas>
+<!--<div id="Draw the rectangle"></div>-->
+<button id="reset" onclick="reset()">Reset</button>
+<script>
+    class RecTang{
+        constructor(width, heigth) {
+            this.width = width;
+            this.heigth = heigth;
+        }
+        area(){
+            document.write("The area is : " + this.width*this.heigth+"<br>")
+        }
+        pol(){
+            document.write("The perimeter is :" + (this.width+this.heigth)*2+"<br>");
+        }
+        setWidth( width){
+            this.width = width;
+        }
+        setHeight( height) {
+            this.height = height;
+        }
+        drawRectang(){
+            let ctx = document.getElementById('coverPage').getContext("2d");
+            ctx.beginPath()
+            ctx.moveTo(0,0);
+            ctx.lineTo(this.width, 0);
+            ctx.lineTo(this.width, this.heigth);
+            ctx.lineTo(0, this.heigth);
+            ctx.lineTo(0, 0);
+            ctx.stroke();
+        }
+    }
+
+    // function reset() {
+    //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    //     let rectangle = new RecTang(parseInt(prompt("Input width : ")),parseInt(prompt("Input heigth : ")));
+    //     rectangle.drawRectang();
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

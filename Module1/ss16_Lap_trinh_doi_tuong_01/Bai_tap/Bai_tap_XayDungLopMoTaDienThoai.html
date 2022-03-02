@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả điện thoại</title>
+</head><h2>[Bài tập] Xây dựng lớp mô tả điện thoại</h2>
+<body>
+<script>
+    class Phone{
+        constructor(battery,name,status) {
+            this.typemessage = [];
+            this.sentmessage = [];
+            this.battery = battery;
+            this.inbox = [];
+            this.name = name;
+            this.status = status;
+            this.charge = "No Charge";
+
+        }getBattery(){
+            console.log(this.battery.getEnegy())
+        }
+
+        setCharge(){
+            this.charge = "Charging";
+            this.battery.charging();
+        }
+
+        turnOn(){
+            if (this.battery.getEnegy()>0){
+            this.status = true;
+            }
+        }
+
+        turnOff(){
+            this.status = false;
+        }
+
+        getStatus(){
+            if((this.battery.getEnegy()>0) || this.status){
+                console.log(this.status = "on");
+                // console.log("Phone is on");
+            }else if((this.battery.getEnegy()<0) ||(this.status=false)){
+                console.log(this.status = "off");
+            }
+        }
+        getName() {
+            return this.name;
+        }
+
+        getSentMessage() {
+            if (this.status) {
+                console.log(this.sentmessage);
+            } else {
+                console.log("Phone is off,need to charge!");
+                // return this.sentmessage;
+            }
+        }
+
+        setSentMessage(message, toPhone) {
+            if (this.status){
+                toPhone.setInbox(message);
+                this.sentmessage.push(message)
+                this.battery.decrease();
+            }
+            else {
+                console.log("Phone is off,need to charge!");
+
+            }
+        }
+
+        getInbox() {
+            if (this.status) {
+                console.log(this.inbox);
+                this.battery.decrease();
+                // return this.inbox;
+            }
+            else {
+                console.log("Phone is off,need to charge!");
+            }
+        }
+        setInbox(message) {
+            this.inbox.push(message);
+        }
+
+        getTypeMessage() {
+            if (this.status) {
+                console.log(this.typemessage)
+                this.battery.decrease();
+                // return this.typemessage;
+            } else {
+                console.log("Phone is off,need to charge!");
+
+            }
+        }
+
+        setTypeMessage(typeMessage) {
+            this.typemessage = this.typemessage.push(typeMessage);
+            this.battery.decrease();
+        }
+    }
+    class Battery{
+        constructor(enegy) {
+            this.enegy = enegy;
+
+        }
+        getEnegy(){
+            // console.log(this.enegy);
+            return this.enegy
+        }
+        setEnegy(enegy){
+            this.enegy = enegy;
+        }
+        charging(){
+            this.enegy++;
+        }
+        decrease(){
+            this.enegy--;
+        }
+    }
+    let batttery1 = new Battery(90);
+    let batttery2 = new Battery(80);
+    let nokia1 = new Phone(batttery1, "nokia",true);
+    let iphone1 = new Phone(batttery2, 'iphone',true);
+    // let message = 'hi iphone';
+    // let message1 = 'bye';
+    // let message2 = 'again';
+    nokia1.setSentMessage('hi iphone',iphone1);
+    // console.log(nokia1);
+   nokia1.getSentMessage()
+    // iphone1.getInbox();
+    console.log(iphone1);
+    // nokia1.setSentMessage('hi iphone',iphone1);
+    // console.log(nokia1);
+    nokia1.setSentMessage('BYE',iphone1);
+    nokia1.getSentMessage();
+    iphone1.getInbox();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // nokia.setSentMessage(message,iphone);
+    // console.log(nokia);
+    // console.log(iphone)
+    // let message1 = 'bye';
+    // nokia.setSentMessage(message1,iphone);
+    // console.log(nokia);
+    // console.log(iphone)
+    // nokia.setCharge();
+    // nokia.turnOn();
+    // console.log(nokia);
+    // nokia.turnOff();
+    // console.log(nokia);
+    // nokia.turnOn()
+    // let message2 = 'nice to meet you';
+    // nokia.setSentMessage(message2,iphone);
+    // console.log(iphone)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

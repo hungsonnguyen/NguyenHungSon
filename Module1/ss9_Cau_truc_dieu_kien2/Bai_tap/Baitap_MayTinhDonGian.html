@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Máy tính đơn giản</title>
+</head><h2>[Bài tập] Máy tính đơn giản</h2>
+<body>
+<style>
+    .but{
+        color: blue;
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .screen{
+        width: 210px;
+        height: 50px;
+        color: red;
+    }
+    .tab{
+        border: solid red;
+        background-color: #dddddd;
+    }
+</style>
+<form>
+<table class="tab">
+    <tr>
+        <td colspan="4"><input style="text-align: right" type="text" id="display" class="screen"/></td>
+    </tr>
+    <tr><td id="number1"><input type="button" value="1" onclick="display.value += this.value" class="but"/></td>
+        <td id="number2"><input type="button" value="2" onclick="display.value += this.value" class="but"></td>
+        <td id="number3"><input type="button" value="3" onclick="display.value += this.value" class="but"></td>
+        <td id="add"><input type="button" value="+" onclick="display.value += this.value" class="but"></td>
+    </tr>
+    <tr><td id="number4"><input type="button" value="4" onclick="display.value += this.value" class="but"></td>
+        <td id="number5"><input type="button" value="5" onclick="display.value += this.value" class="but"></td>
+        <td id="number6"><input type="button" value="6" onclick="display.value += this.value" class="but"></td>
+        <td id="sub"><input type="button" value="-" onclick="display.value += this.value" class="but"></td>
+    </tr>
+    <tr><td id="number7"><input type="button" value="7" onclick="display.value += this.value" class="but"></td>
+        <td id="number8"><input type="button" value="8" onclick="display.value += this.value" class="but"></td>
+        <td id="number9"><input type="button" value="9" onclick="display.value += this.value" class="but"></td>
+        <td id="multi"><input type="button" value="*" onclick="display.value += this.value" class="but"></td>
+    </tr>
+    <tr><td id="c"><input  type="button" value="c" onclick="display.value = display.value.substr(0,display.value.length-1)" class="but"></td>
+        <td id="0"><input type="button" value="0" onclick="display.value += this.value" class="but"></td>
+        <td id="="><input type="button" value="=" onclick="display.value = eval(display.value)" class="but"></td>
+        <td id="div"><input type="button" value="/" onclick="display.value += this.value" class="but"></td>
+    </tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột.</title>
+</head><h2>[*Bài tập] Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột.</h2>
+<body>
+<script>
+    class Rat{
+        constructor(name, weight, speed, status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = status;
+        }
+        growl(){
+                console.log(this.name + " Chit, chit");
+        }
+    }
+    class Cat{
+        constructor(name, weight, speed, status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+        }
+        growl(){
+                console.log(this.name + " meo meo");
+        }
+        catchrat(ratObj){
+                if (this.speed>ratObj.speed){
+                    console.log("----Catched you baby!");
+                    this.eatRat(ratObj);
+                    ratObj.status = "death";
+                }else {console.log("Rat so fast, cat can't catch it!")}
+
+        }
+        eatRat(ratObj){
+                console.log("---Begin the dinner!");
+                if (ratObj.status == "live"){
+                    this.weight = this.weight + ratObj.weight;
+                    console.log("The weight of cat is increase to: " + this.weight);
+                }else {console.log("The rat is death, don't eat !!")}
+        }
+    }
+    let cat1 = new Cat("Tom", 10, 20);
+    let rat1 = new Rat("jerry", 3, 11, "live");
+    console.log(cat1);
+    console.log(rat1);
+    cat1.growl();
+    rat1.growl();
+    cat1.catchrat(rat1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

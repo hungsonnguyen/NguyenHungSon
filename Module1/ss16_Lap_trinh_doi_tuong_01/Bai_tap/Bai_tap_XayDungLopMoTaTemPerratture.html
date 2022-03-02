@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả Temperature</title>
+</head><h2>[Bài tập] Xây dựng lớp mô tả Temperature</h2>
+<body>
+<script>
+    class Temperature{
+        constructor(doC) {
+            this.doC = doC;
+            this.minC = -273;
+
+        }to0F(){
+            if (this.doC>this.minC){
+                // return 9/5*this.doC+32;
+                document.write("Nhiệt đô chuyển đổi sang 0F = " + 9/5*this.doC+32+ "<br>");
+
+            }else (alert("Nhiet do khong duoc nho hon -273 0C"));
+        }toCel(){
+            if (this.doC>this.minC){
+                // return this.doC + this.minC;
+                document.write("Nhiệt đô chuyển đổi sang 0Cel = " + (this.doC - this.minC) + "<br>");
+
+            }else (alert("Nhiet do khong duoc nho hon -273 0C"));
+        }
+    }tem0 = new Temperature(-280);
+    tem0.to0F();
+    tem0.toCel();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

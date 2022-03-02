@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma;
+}
+header{
+    padding-left: 1.5%;
+    line-height: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    margin-bottom: 5px;
+}
+.row-top{
+    height: 40px;
+    background-color: lightgrey;
+    text-align: center;
+    color: forestgreen;
+}
+.row-top-content{
+    position: relative;
+    left: 30%;
+    float: left;
+    padding: 10px 5px 10px 0px;
+}
+.left_video_youtube{
+    width: 100%;
+    margin: 5px;
+}
+.right_video_youtube{
+    width: 100%;
+    margin: 5px 2px 2px 2px;
+}

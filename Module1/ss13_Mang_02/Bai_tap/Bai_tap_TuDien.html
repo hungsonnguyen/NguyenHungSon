@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head><h2>Từ điển</h2>
+<body>
+<form>
+    <input style="text-align: right" type="text" id="nhap" placeholder="InPutWord"/>
+    <input type="button" onclick="tran()" value="Translate">
+    <input style="text-align: right" type="text" id="inra" placeholder="ViệtNamese"/>
+
+</form>
+<script>
+    let english = ["chicken","dog","cat","mouse"];
+    let viet = ["Con gà","Con chó","Con mèo", "Con chuột"];
+    console.log(english);
+    console.log(viet)
+    let ne = english.length;
+    function tran() {
+        let nhap = document.getElementById("nhap").value;
+    for(i=0;i<ne;i++){
+        console.log(english.indexOf(nhap))
+        if(english.indexOf(nhap)!=-1){
+            document.getElementById("inra").value = viet[english.indexOf(nhap)];
+        }else {
+            alert("Không tìm thấy từ cần tìm");
+            break;
+        }
+    }
+}
+
+    // if(viet.indexOf(nhap)!==1){
+    //     document.getElementById("inra").innerHTML = viet[english.indexOf(nhap)];
+
+
+
+
+
+
+</script>
+</body>
+</html>

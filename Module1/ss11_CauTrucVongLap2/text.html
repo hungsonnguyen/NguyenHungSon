@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text</title>
+</head>
+<body>
+<form>
+    <h2>Game đoán số ngẫu nhiên</h2>
+    <input type="button" name="play" value="Play" id="b1" onclick="selectarea()"/>
+</form>
+<script>
+
+    // function selectarea() {
+    //     let m;
+    //     let nhap;
+    //     let count = 0;
+    //     let area = parseInt(prompt("Nhập khoảng dự đoán"));
+    //     if (area == "1") {
+    //         alert("Bạn lựa chọn khoảng 1 là từ : 1-30 ");
+    //         m = Math.floor(Math.random() * 30);
+    //         console.log(m);
+    //         while (true) {
+    //             nhap = prompt("Nhập giá trị từ 1-30");
+    //             if (nhap > 0 && nhap < 30) {
+    //                 break;
+    //             } else {alert("Mời nhập lại đúng giá trị từ 1-30")
+    //             }
+    //         }
+    //     } else if (area == "2") {
+    //         alert("Bạn lựa chọn khoảng 2 là từ : 30-60 ");
+    //         m = Math.floor(Math.random() * 30) + 30;
+    //         console.log(m);
+    //         while (true) {
+    //             nhap = prompt("Nhập giá trị từ 30-60");
+    //             if (nhap > 30 && nhap < 60) {
+    //                 break;
+    //             } else {alert("Mời nhập lại đúng giá trị từ 30-60")
+    //             }
+    //         }
+    //     } else if (area == "3") {
+    //         alert("Bạn lựa chọn khoảng 3 là từ : 60-90 ");
+    //         m = Math.floor(Math.random() * 30) + 60;
+    //         console.log(m);
+    //         while (true) {
+    //             nhap = prompt("Nhập giá trị");
+    //             if (nhap > 60 && nhap < 90) {
+    //                 break;
+    //             } else {alert("Mời nhập lại đúng giá trị từ 60-90")
+    //             }
+    //         }
+    //
+    //     }
+    //     while (count < 3) {
+    //         nhap = parseInt(prompt("Nhập giá trị dự đoán từ 60-90"))
+    //         if (nhap === m) {
+    //             alert("Chúc mừng bạn đã đoán đúng");
+    //             break;
+    //         } else if (nhap > m) {
+    //             alert("Kết quả dự đoán bé hơn của bạn");
+    //         } else if (nhap < m) {
+    //             alert("Kết quả dự đoán lướn hơn của bạn");
+    //         }
+    //         count++;
+    //     }
+    // }
+
+
+        // Mẫu
+    function selectarea() {
+        let random;
+        let nhap;
+        let area = parseInt(prompt("Nhập khoảng dự đoán 1 hoặc 2 hoặc 3"));
+        let count = 0;
+        if(area===1){
+            alert("Khoảng lựa chọn từ 1-30");
+            random = Math.floor(Math.random()*30);
+            console.log(random);
+        }else if(area===2) {
+            alert("Khoảng lựa chọn từ 31-60");
+            random = Math.floor(Math.random() * 30) + 30;
+            console.log(random);
+        }
+        else if(area===3) {
+            alert("Khoảng lựa chọn từ 61-90");
+            random = Math.floor(Math.random() * 30) + 60;
+            console.log(random);
+        }
+        while (count < 3) {
+            if (area===1){
+                    while (1){
+                        nhap = parseInt(prompt("Nhập giá trị dự đoán từ 1-30"));
+                        if(nhap>0&&nhap<=30){
+                            break;
+                        }
+                    }
+                }
+            else if (area===2){
+                while (1){
+                    nhap = parseInt(prompt("Nhập giá trị dự đoán từ 31-60"));
+                    if(nhap>30&&nhap<=60){
+                        break;
+                    }
+                }
+            }
+            else if (area===3){
+                while (1){
+                    nhap = parseInt(prompt("Nhập giá trị dự đoán từ 1-30"));
+                    if(nhap>60&&nhap<90){
+                        break;
+                    }
+                }
+            }
+            if (nhap === random) {
+                alert("Chúc mừng bạn đã đoán đúng");
+                break;
+            } else if (nhap > random) {
+                alert("Kết quả dự đoán bé hơn của bạn");
+            } else if (nhap < random) {
+                alert("Kết quả dự đoán lướn hơn của bạn");
+            }
+            count++;
+        }
+
+    }
+
+        //Test 02
+    // function selectarea() {
+    //     let m;
+    //     let nhap;
+    //     let count = 0;
+    //     let area = parseInt(prompt("Nhập khoảng dự đoán"));
+    //     if (area === 1) {
+    //         alert("Bạn lựa chọn khoảng 1 là từ : 1-30 ");
+    //         m = Math.floor(Math.random() * 30);
+    //         console.log(m);
+    //
+    //         while (count < 3) {
+    //             while (1) {
+    //                 nhap = prompt("Nhập giá trị từ 1-30");
+    //                 if (nhap > 0 && nhap <= 30) {
+    //                     break;
+    //                 } else {
+    //                     "Mời nhập lại đúng giá trị từ 1-30"
+    //                 }
+    //             }
+    //             if (nhap === m) {
+    //                 alert("Chúc mừng bạn đã đoán đúng");
+    //                 break;
+    //             } else if (nhap > m) {
+    //                 alert("Kết quả dự đoán bé hơn của bạn");
+    //             } else if (nhap < m) {
+    //                 alert("Kết quả dự đoán lớn hơn của bạn");
+    //             }
+    //             count++;
+    //         }
+    //     } else if (area === 2) {
+    //         alert("Bạn lựa chọn khoảng 2 là từ : 30-60 ");
+    //         m = Math.floor(Math.random() * 30) + 30;
+    //         console.log(m);
+    //
+    //         while (count < 3) {
+    //             while (2) {
+    //                 nhap = prompt("Nhập giá trị từ 30-60");
+    //                 if (nhap > 30 && nhap <= 60) {
+    //                     break;
+    //                 } else {
+    //                     "Mời nhập lại đúng giá trị từ 30-60"
+    //                 }
+    //             }
+    //             if (nhap === m) {
+    //                 alert("Chúc mừng bạn đã đoán đúng");
+    //                 break;
+    //             } else if (nhap > m) {
+    //                 alert("Kết quả dự đoán bé hơn của bạn");
+    //             } else if (nhap < m) {
+    //                 alert("Kết quả dự đoán lớn hơn của bạn");
+    //             }
+    //             count++;
+    //         }
+    //     } else if (area === 3) {
+    //         alert("Bạn lựa chọn khoảng 3 là từ : 61-90 ");
+    //         m = Math.floor(Math.random() * 30) + 60;
+    //         console.log(m);
+    //
+    //         while (count < 3) {
+    //             while (3) {
+    //                 nhap = prompt("Nhập giá trị từ 61-90");
+    //                 if (nhap > 60 && nhap < 90) {
+    //                     break;
+    //                 } else {
+    //                     "Mời nhập lại đúng giá trị từ 60-90"
+    //                 }
+    //             }
+    //             if (nhap === m) {
+    //                 alert("Chúc mừng bạn đã đoán đúng");
+    //                 break;
+    //             } else if (nhap > m) {
+    //                 alert("Kết quả dự đoán bé hơn của bạn");
+    //             } else if (nhap < m) {
+    //                 alert("Kết quả dự đoán lớn hơn của bạn");
+    //             }
+    //             count++;
+    //         }
+    //     }
+    // }
+
+
+
+
+</script>
+</body>
+</html>

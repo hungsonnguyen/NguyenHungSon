@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7195025-2665-472f-91fd-3833fd5e2939" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/libraries/groovy_4_0_0_beta_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/Module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-ant-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-ant-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-astbuilder-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-astbuilder-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-cli-commons-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-cli-commons-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-cli-picocli-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-cli-picocli-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-console-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-console-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-contracts-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-contracts-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-datetime-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-datetime-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-dateutil-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-dateutil-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-docgenerator-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-docgenerator-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-ginq-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-ginq-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-groovydoc-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-groovydoc-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-groovysh-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-groovysh-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-jmx-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-jmx-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-json-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-json-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-jsr223-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-jsr223-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-macro-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-macro-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-macro-library-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-macro-library-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-nio-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-nio-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-servlet-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-servlet-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-sql-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-sql-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-swing-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-swing-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-templates-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-templates-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-test-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-test-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-test-junit5-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-test-junit5-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-testng-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-testng-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-toml-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-toml-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-typecheckers-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-typecheckers-4.0.0-beta-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-xml-4.0.0-beta-1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/lib/groovy-xml-4.0.0-beta-1.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21dHuz7lflvVi7IzKzRi7ppal58" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7195025-2665-472f-91fd-3833fd5e2939" name="Changes" comment="" />
+      <created>1638264273338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638264273338</updated>
+      <workItem from="1638264275502" duration="1041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

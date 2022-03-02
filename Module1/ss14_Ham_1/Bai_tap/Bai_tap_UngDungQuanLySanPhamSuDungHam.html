@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+</head><h2>[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm</h2>
+<body>
+<h3>Add New Product</h3>
+<div>
+<p><input id="inputAdd" placeholder="New Product"><input type="button" id="add" onclick="addProduct()" value="Add"></p>
+</div>
+<table id="tableInHtml" border="1"></table>
+
+<script>
+ let arrListProduct = [
+     "Sony Xperia",
+     "Samsung Galaxy",
+     "Nokia 6",
+     "Xiaomi Redmi Note 4",
+     "Apple iPhone 6s",
+     "Xiaomi 5s Plus",
+     "Apple iPhone 8 Plus",
+     "Fujitsu F-04E",
+     "Oppo A71"];
+    
+     function loadListProduct() {
+         let tableInHtml =
+             `<tr>
+                <td>Number</td>
+                <td>Prduct Name</td>
+                <td colspan="2" style="text-align: center">Action</td>
+                </tr>`;
+         for(let i = 0; i < arrListProduct.length; i++){
+             tableInHtml +=
+                 `<tr>
+                <td>${i+1}</td>
+                <td>${arrListProduct[i]}</td>
+                <td><button onclick="editProduct(${i})" id="edit">Edit</button></td>
+                <td><button id="edit" onclick="delProduct(${i})">Delete</button></td>
+                </tr>`
+         }
+     document.getElementById('tableInHtml').innerHTML = tableInHtml
+    }
+    function addProduct() {
+         let prd = document.getElementById('inputAdd').value;
+        arrListProduct.push(prd);
+        loadListProduct();
+    }
+    function delProduct(id) {
+         let check = confirm("Do you want to delete" + arrListProduct[id]+ "?")
+        if(check){
+         arrListProduct.splice(id,1)}
+         else {alert("You hold it!")};
+        loadListProduct();
+    }
+    function editProduct(id) {
+         let editText = prompt('Nhập tên sản phẩm mới');
+         if (editText ==null || editText === arrListProduct[id]){
+             alert("Xin nhập lại tên sản phẩm")
+         }
+         else {
+             arrListProduct[id] = editText};
+        loadListProduct();
+    }
+    loadListProduct();
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

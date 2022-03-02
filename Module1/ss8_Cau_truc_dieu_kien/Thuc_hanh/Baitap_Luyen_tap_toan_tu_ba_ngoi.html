@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập toán tử ba ngôi</title>
+</head>
+
+<body>
+<script>
+
+
+    // Bài 1
+    //Dùng lệnh IF
+    // let a=parseInt(prompt("Nhập giá trị a =")) ;
+    // let b=parseInt(prompt("Nhập giá trị a =")) ;
+    // let sum= a+b
+    // if(sum>4){
+    //     alert('Over');
+    // }else{alert('Below');}
+
+    //Dùng toán tử 3 ngôi
+    //     let a=parseInt(prompt("Nhập giá trị a =")) ;
+    //     let b=parseInt(prompt("Nhập giá trị a =")) ;
+    //     let sum= a+b
+    //     sum>4?alert('Over'):alert('Below');
+
+
+    // Bài 2
+    // let id=prompt('')
+    // id=="Employee"?alert('Hello'):
+    //     id=="Director"?alert('Greeting'):
+    //         id==""?alert('No login'):alert("");
+
+    //Bài 3
+    let year = parseInt(prompt("Enter a year"));
+    let isLeapYear = false;
+
+    if (year % 4 == 0) {
+        if (year % 100 == 0) {
+            if (year % 400 == 0) {
+                isLeapYear = true;
+            }
+        } else {
+            isLeapYear = true;
+        }
+    }
+
+    if (isLeapYear) {
+        alert(year + " is a leap year");
+    } else {
+        alert(year + " is NOT a leap year");
+    }
+
+
+</script>
+</body>
+</html>

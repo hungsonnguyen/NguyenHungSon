@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let board = [1, 2, 3, 4, 5, 6];
+    let x = parseInt(prompt("Nhập giá trị cần chèn bất kì"));
+    let point = parseInt(prompt("Nhập vị trí cần chèn "));
+    let n = board.length;
+    if (point<=0||point>=n){
+        {alert("Vị trí cần chèn cần lớn hơn 0 và nhỏ hơn n")}
+    }else {
+        n=n+1;
+        for (i = n-1; i>point; i--){
+            board[i] = board[i - 1];
+        } board[point] = x;
+        document.write(board)}
+</script>
+</body>
+</html>

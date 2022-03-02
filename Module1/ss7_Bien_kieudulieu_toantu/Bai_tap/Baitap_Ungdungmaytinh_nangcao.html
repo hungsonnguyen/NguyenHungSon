@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng để làm máy tính nâng cao</title>
+</head><h1>Máy tính nâng cao 1</h1>
+
+<body>
+<form>
+    <h3>Caculator</h3>
+    <input type="text" id="n1"/>
+    <input type="text" id="n2"/>
+    <br>
+    <br>
+    <button type="button" onclick="abc('add')">Addition(+)</button>
+    <button type="button" onclick="abc('sub')">Subtraction(-)</button>
+    <button type="button" onclick="abc('multi')">Multiplication(x)</button>
+    <button type="button" onclick="abc('div')">Division(/)</button>
+    <br>
+    <br>
+    Result : <p id="Result"></p>
+
+</form>
+<script>
+
+    function abc(calc) {
+        let n1 = document.getElementById('n1').value;
+        let n2 = document.getElementById('n2').value;
+        let result;
+        switch (calc) {
+            case "add":
+                result = parseFloat(n1) + parseFloat(n2);
+                document.getElementById('Result').innerText = result;
+                break;
+            case "sub":
+                result = parseFloat(n1) - parseFloat(n2);
+                document.getElementById('Result').innerText = result;
+                break;
+            case "multi":
+                result = parseFloat(n1) * parseFloat(n2);
+                document.getElementById('Result').innerText = result;
+                break;
+            case "div":
+                result = parseFloat(n1) / parseFloat(n2);
+                document.getElementById('Result').innerText = result;
+                break;
+        }
+    }
+    //hàm s
+</script>
+</body>
+</html>

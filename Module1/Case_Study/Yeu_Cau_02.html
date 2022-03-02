@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>II.	Yêu cầu 2 ( If và switch case)</title>
+</head><h2>II.	Yêu cầu 2 ( If và switch case)</h2>
+<body>
+<script>
+    // Bài 1: Viết một chương trình để nhập lương nhân viên,
+    // tính thuế thu nhập và lương ròng (số tiền lương thực sự mà nhân viên đó nhận được).
+    // Với các thông số giả sử như sau (không theo luật lương, chỉ là con số giả sử để dễ tính toán):
+    // 20% thuế thu nhập nếu lương là 15 triệu.
+    // 10% thuế thu nhập nếu lương từ 7 đến 15 triệu.
+    // 5% thuế thu nhập nếu lương dưới 7 triệu
+
+    // let luongCoBan = parseInt(prompt("Nhập tiền lương nhân viên trước thuế: "))
+    // let thue;
+    // let luongSauThue;
+    // if(luongCoBan>=15){
+    //     thue = 20*luongCoBan/100;
+    //     luongSauThue = luongCoBan + thue;
+    // }else if(luongCoBan>=7 && luongCoBan<15){
+    //     thue = 10*luongCoBan/100;
+    //     luongSauThue = thue + luongCoBan;
+    // }else {
+    //     thue = 5*luongCoBan/100;
+    //     luongSauThue = thue + luongCoBan};
+    // alert("Tiền thuế là: " + thue)
+    // alert("Lương sau thuế là: "+luongSauThue)
+
+
+    //Bài 2: Viết chương trình kiểm tra một ký tự trong bảng chữ cái tiếng anh là nguyên âm hay phụ âm.
+    // Ký tự là bất kỳ được nhập từ bàn phím.
+    // Các ký tự nguyên âm bao gồm: 'o', 'u', 'i', 'a', 'e' hoặc 'O', 'U', 'I', 'A', 'E'
+
+    // let nguyenAm = prompt("Nhập kí tự bất kì : ");
+    // switch (nguyenAm) {
+    //     case 'o':
+    //     case 'u':
+    //     case 'i':
+    //     case 'a':
+    //     case 'e':
+    //     case 'O':
+    //     case 'I':
+    //     case 'A':
+    //     case 'E':
+    //         alert("Kí tự " + nguyenAm + " vừa nhập là nguyên âm");
+    //         break;
+    //         default: {alert("Kí tự " + nguyenAm + " vừa nhập không phải là nguyên âm")}
+    // }
+
+
+
+    let nguyenAm = prompt("Nhập kí tự bất kì : ");
+    let array = ['o', 'u', 'i', 'a', 'e','O', 'U', 'I', 'A', 'E'];
+    console.log(array)
+    let bl = true
+    for(let i= 0; i<array.length; i++){
+        bl = false;
+        if (nguyenAm == array[i]){
+            bl = true;
+            break;
+        }
+    }
+    if (bl){
+        alert("Kí tự " + nguyenAm + " vừa nhập là nguyên âm");
+    }else {alert("Kí tự " + nguyenAm + " vừa nhập không phải là nguyên âm")}
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

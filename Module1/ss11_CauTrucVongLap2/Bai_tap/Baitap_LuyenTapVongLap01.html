@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Luyện tập vòng lặp 01</title>
+</head><h2>[*Bài tập] Luyện tập vòng lặp 01</h2>
+<body>
+<form>
+    <h2>Game đoán số ngẫu nhiên</h2><!--    Dùng để làm bài tập 8-->
+    <input type="button" name="play" value="Play" id="b1" onclick="selectarea()"/>
+</form>
+<script>
+    //Bài 1: Sử dụng vòng lặp để đếm từ 1 đến 100. Khi số là 99,
+    // hiển thị hộp thoại thông báo là đã hoàn thành.
+    // let i;
+    // for(i=1;i<100;i++){
+    //     document.write(""+i+"<br>");
+    //     if(i===99){
+    //         alert("Finish");
+    //         break;
+    // //     }
+    // }
+
+    // Bài 2: Sử dụng hàm prompt() để lấy thông tin nhiệt độ hiện tại được nhập bởi người truy cập. Nếu nhiệt độ nhập vào trên 100,
+    // yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ.
+
+    // while (1){
+    //     let nhietdo = prompt("Nhập nhiệt độ");
+    //     if (nhietdo>100){
+    //         alert("Giảm nhiệt độ")
+    //     }
+    //     else if(nhietdo>20&&nhietdo<100){
+    //         alert("Nhiệt dộ bình thường");
+    //         break;
+    //     }
+    //     else if(nhietdo<20){
+    //         alert("Tăng nhiệt độ")
+    //     }
+    // }
+
+    //Bài 3: Hiển thị ra 20 số trong dãy fibonacci đầu tiên.
+    //Công thức truy hồi của dãy fibonacci có dạng:
+    // f(n) = f(n-1) + f(n-2) .
+
+    // let a =1;
+    // let b =0;
+    // let c;
+    // let count =0
+    // while (count<20){
+    //     c = a+ b;
+    //     document.write(a+"<br>");
+    //     b = a;
+    //     a = c;
+    //     count++
+    // }
+
+
+    // Bài 4: Tìm số đầu tiên trong dãy fibonacci chia hết cho 5.
+    // let a =1;
+    // let b =0;
+    // let c;
+    // while (1){
+    //     c = a+ b;
+    //     b = a;
+    //     a = c;
+    //     if (c%5===0){
+    //         document.write("Số đầu tiên chia hết cho 5 là: "+c);
+    //         break;
+    //     }
+    // }
+
+    // Bài 5: Tính tổng của 20 số đầu tiên trong dãy fibonacci.
+
+    // let a =1;
+    // let b =0;
+    // let c;
+    // let d =0;
+    // let count =0
+    // while (count<5){
+    //     c = a+ b;
+    //     document.write(a+"<br>");//chỉ dùng để xem kiểm tra( có thể bỏ bước này)
+    //     d+=a
+    //     b = a;
+    //     a = c;
+    //     count++
+    // }document.write("Tổng của"+count+"chữ số fibonacci đầu tiên của dãy là " +d)
+
+
+    //Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.
+    let count = 0;
+    let n=0;
+    let sum= 0;
+    while (count<30){
+         n=n+7
+         count++;
+            document.write(n+"<br>"); //chỉ dùng để xem kiểm tra( có thể bỏ bước này)
+            sum +=n
+        }
+    document.write("Tổng của dãy "+count+"chữ số tự nhiên chia hết cho 7 đầu tiên là:" + sum)
+
+    //Bài 7: Hãy viết một chương trình in ra các số từ 1 đến 100. Nhưng nếu số chia hết cho 3 thì in ra "Fizz",
+    // 5 thì in ra "Buzz" thay vì in ra số đó. Và nếu số đó chia hết cho cả 3 và 5 thì in ra chữ "FizzBuzz".
+
+    // let n=1;
+    // while(n<=100) {
+    //     if (n % 3 === 0&&n % 5 === 0){
+    //         document.write("FizzBuzz"+"<br>");
+    //     }
+    //     else if(n % 3 === 0) {
+    //         document.write("Fizz"+"<br>");
+    //     } else if (n % 5 === 0) {
+    //         document.write("Buzz"+"<br>");
+    //     }else {document.write(""+n+"<br>")
+    //     }
+    //     n++;
+    // }
+
+
+    // Bài 8: Game đoán số
+
+    // function selectarea() {
+    //     let random;
+    //     let nhap;
+    //     let area = parseInt(prompt("Nhập khoảng dự đoán 1 hoặc 2 hoặc 3"));
+    //     let count = 0;
+    //     if(area===1){
+    //         alert("Khoảng lựa chọn từ 1-30");
+    //         random = Math.floor(Math.random()*30);
+    //         console.log(random);
+    //     }else if(area===2) {
+    //         alert("Khoảng lựa chọn từ 31-60");
+    //         random = Math.floor(Math.random() * 30) + 30;
+    //         console.log(random);
+    //     }
+    //     else if(area===3) {
+    //         alert("Khoảng lựa chọn từ 61-90");
+    //         random = Math.floor(Math.random() * 30) + 60;
+    //         console.log(random);
+    //     }
+    //     while (count < 3) {
+    //         if (area===1){
+    //             while (1){
+    //                 nhap = parseInt(prompt("Nhập giá trị dự đoán từ 1-30"));
+    //                 if(nhap>0&&nhap<=30){
+    //                     break;
+    //                 }
+    //             }
+    //         }
+    //         else if (area===2){
+    //             while (1){
+    //                 nhap = parseInt(prompt("Nhập giá trị dự đoán từ 31-60"));
+    //                 if(nhap>30&&nhap<=60){
+    //                     break;
+    //                 }
+    //             }
+    //         }
+    //         else if (area===3){
+    //             while (1){
+    //                 nhap = parseInt(prompt("Nhập giá trị dự đoán từ 1-30"));
+    //                 if(nhap>60&&nhap<90){
+    //                     break;
+    //                 }
+    //             }
+    //         }
+    //         if (nhap === random) {
+    //             alert("Chúc mừng bạn đã đoán đúng");
+    //             break;
+    //         } else if (nhap > random) {
+    //             alert("Kết quả dự đoán bé hơn của bạn");
+    //         } else if (nhap < random) {
+    //             alert("Kết quả dự đoán lướn hơn của bạn");
+    //         }
+    //         count++;
+    //     }
+    //
+    // }
+
+
+
+
+</script>
+
+</body>
+</html>

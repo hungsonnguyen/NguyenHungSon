@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row{
+    border: 1px solid   ;
+    cursor: pointer;
+    height: 30px;
+    background-color: grey;
+}
+.row ul li {
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    list-style: none;
+    color: white;
+}
+.row-right{
+    float: right;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+.col-2{
+    height: 1000px;
+    background-color: darkgrey;
+}
+.col-2 ul li{
+    list-style: none;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+.col-2 ul li a{
+    text-decoration: none;
+
+}
+.mid-top-content{
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+.right-button{
+    cursor: pointer;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid grey;
+    background: grey;
+    margin: 30px 30px 30px 30px;
+    padding: 15px 30px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 2</title>
+</head>
+<body>
+<script>
+    //Bài 2 Câu 2: Viết hàm cho phép nhập vào một số nguyên dương, kiểm tra xem số vừa nhập đó có phải là số hoàn hảo hay không. Chương trình sẽ trả về true nếu số đó là số hoàn hảo và false nếu không phải là số hoàn hảo.
+    //     Lưu ý: Số hoàn hảo là số mà tổng các ước của nó bằng chính nó
+    //     Ví dụ:
+    //         -	6 = 1+2+3 -> True
+    //     Số đầu vào	Kết quả
+    //     6	True
+    //     9	False
+    //
+    let a = parseInt(prompt("Nhập số nguyên bất kì"));
+    let sum = 0;
+    function chekcSoHoanHao() {
+        for( let i = 0; i < a; i++){
+            if (a %i ===0){
+                sum += i;
+            }
+        }
+        if(sum === a){
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+    console.log(chekcSoHoanHao(a));
+</script>
+</body>
+</html>

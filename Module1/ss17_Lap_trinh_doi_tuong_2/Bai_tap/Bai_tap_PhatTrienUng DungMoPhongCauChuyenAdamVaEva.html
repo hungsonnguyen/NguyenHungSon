@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
+</head><h2>[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</h2>
+<body>
+<script>
+    class Apple{
+        constructor(name) {
+            this.weight = 10;
+            this.name = name;
+
+        }
+        getWeigth(){
+            return this.weight
+        }
+        drecrease(){
+            this.weight-=1;
+        }
+        isEmpty(){
+            if (this.weight <= 0){
+                return true;
+            }else {return false}
+        }
+    }
+
+    class Human{
+        constructor(sex, weight) {
+            this.name = 'name';
+            this.sex = sex;
+            this.weigth = weight;
+
+
+        }
+        getName(){
+            return this.name;
+        }
+        getGender(){
+            return this.sex;
+        }
+        setGender(male){
+            if (male){
+                this.sex = "Male";
+                this.name = "Adam";
+            }else {this.sex = "FeMale";
+                this.name = "Eva"}
+
+        }
+        checkApple(apple){
+            if (apple.isEmpty()){
+                console.log("Táo hết rồi");
+            }else {
+                console.log("Táo còn có thể ăn");
+                console.log("Còn ăn được" + apple.getWeigth()+" miếng")
+               }
+        }
+
+        say(){
+            if (this.sex === "Male"){
+                console.log("Tôi là Adam");
+            }else {console.log("Tôi là Eva");}
+        }
+
+        getWeight(){
+            return this.weigth;
+        }
+        setWeight(weight){
+            this.weigth = weight;
+        }
+        eat(apple){
+            apple.drecrease();
+            this.weigth +=1;
+        }
+
+    }
+    let man = new Human( false, 100);
+    let man2 = new Human( false, 100)
+    apple1 = new Apple("đỏ");
+    man.setGender(true);
+    man.say();
+    console.log(man);
+    man2.setGender(false);
+    man2.setWeight(75)
+    man2.say();
+    console.log(man2);
+    for (let i =0; i< apple1.getWeigth();i+2){
+        console.log(man.getName()+" lấy táo ăn ");
+        man.eat(apple1);
+        console.log(man2.getName()+" lấy táo ăn ");
+        man2.eat(apple1);
+        man2.checkApple(apple1);
+    }
+    console.log("Cân nặng của "+ man.getName() +" là " + man.getWeight());
+    console.log("Cân nặng của "+ man2.getName() +" là " + man2.getWeight());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

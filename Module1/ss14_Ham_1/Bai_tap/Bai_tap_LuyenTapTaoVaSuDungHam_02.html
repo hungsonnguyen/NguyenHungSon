@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai_tap_LuyenTapTaoVaSuDungHam_02</title>
+</head><h2>[Bài tập] Luyện tập tạo và sử dụng hàm 02</h2>
+<body>
+<script>
+    //     Bài 1: Viết hàm tính bình phương của một số bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
+    //         function square(a) {
+    //             return a*a;
+    //         }
+    //         console.log(square(5));
+
+
+    //     Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được
+    //         function area(a,b) {
+    //             return a*b;
+    //         }
+    //         function pol(a,b) {
+    //             return (a+b)*2;
+    //         }
+    //         console.log("Chu vi:" + pol(2,3));
+    //         console.log("Diện tích:" + area(2,3));
+
+
+    //     ài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
+    //     function giaiThua(n) {
+    //         let x =1;
+    //         for (let i = 1; i<=n; i++){
+    //             x = x*i;
+    //             console.log(i)
+    //         }return x
+    //     }console.log("Giai thừa của số nguyên vừa nhập là : " + giaiThua(parseInt(prompt("Nhập số nguyên bất kì : "))));
+
+
+
+    //     Bài 4: Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+    //     Nếu là ký tự số hàm trả về true, ngược lại trả về false.
+    //         function checkSoNguyen(a) {
+    //             if (a>0 || a<=0){
+    //                 return true;
+    //             }else {return  false};
+    //         }
+    //         let sym = prompt("Nhập vào ký tự cần kiểm tra");
+    //         if (checkSoNguyen(sym)){
+    //             alert("Kí tự vừa nhập là số");
+    //         }else {
+    //             alert("Kí tự vừa nhập không phải là số");
+    //         }
+
+
+    //     Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.
+    //             function maxIn3(a,b,c) {
+    //                 max = a;
+    //                 if (b>max){
+    //                     max = b;
+    //                     }
+    //                 else if (c>max) {
+    //                     max = c;
+    //                 }
+    //                 return max;
+    //             }
+    //         let x = prompt("Nhập số đầu tiên");
+    //         let y = prompt("Nhập số đầu tiên");
+    //         let z = prompt("Nhập số đầu tiên");
+    //             console.log(maxIn3(x,y,z))
+
+
+    //     Bài 6: Viết hàm nhận vào một số, kiểm tra xem nếu số đưa vào có phải là nguyên dương không. Nếu là nguyên dương trả về true, ngược lại trả về false.
+    //             function checkSoNguyendương(a) {
+    //                         if (a>0 || a<=0){
+    //                             return true;
+    //                         }else {return  false};
+    //                     }
+    //                     let sym = prompt("Nhập vào ký tự cần kiểm tra");
+    //                     if (checkSoNguyen(sym)){
+    //                         alert("Kí tự vừa nhập là số");
+    //                     }else {
+    //                         alert("Kí tự vừa nhập không phải là số");
+    //                     }
+    //
+
+
+    //     Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.
+    //         let array = [];
+    //         for(let i = 0; i < 2; i++) {
+    //             array[i] = parseInt(prompt("Nhập biến"));
+    //         }console.log("Dãy ban đầu " + array);
+    //         function doiCho2SoNguyen(arr) {
+    //             let a;
+    //             for (let i = 0; i < arr.length -1; i++){
+    //                 a = arr[0];
+    //                 arr[0] = arr[arr.length -1];
+    //                 arr[arr.length -1] = a;
+    //             }return arr
+    //         }
+    //         console.log("Dãy đảo ngược " + doiCho2SoNguyen(array));
+
+
+
+
+    //     Bài 8: Viết hàm truyền vào mảng số nguyên bất kỳ, sau đó đảo ngược mảng số nguyên đó.
+    //
+    //             let array = [];
+    //             for(let i = 0; i < 5; i++) {
+    //                 array[i] = prompt("Nhập biến");
+    //             }console.log("Dãy ban đầu " + array);
+    //             function doiCho2SoNguyen(arr) {
+    //                 let a;
+    //                 for (let i = 0, j = 1; i < arr.length-j; i++, j++){
+    //                     a = arr[i];
+    //                     arr[i] = arr[arr.length -j];
+    //                     arr[arr.length -j] = a;
+    //                 }return arr
+    //             }
+    //             console.log("Dãy đảo ngược " + doiCho2SoNguyen(array));
+    //     Bài 9: Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ,
+    //     kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.
+    //     Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.
+
+        function check(a) {
+            let arr = ["Polaris", "Aldebaran", "Deneb", "Vega","Polaris", "Altair", "Dubhe" , "Regulus", "Polaris"]
+            let count = 0;
+            for (let i = 0; i < arr.length; i++) {
+                if (a === arr[i]) {
+                    count++;
+                }
+            }
+            if (count != 0) {
+                return count;
+            } else {return "-1"
+            }
+        }
+        let b = prompt("Nhập vào kí tự");
+        console.log(check(b));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện chuột</title>
+</head>
+<body>
+<form>
+    <img style="position: absolute;left: 0;top: 0" height="100" width="120"
+         id="ball"  src=https://i1-vnexpress.vnecdn.net/2019/03/02/bai-toan-3768-1551057063-6906-1551496131.png?w=680&h=0&q=100&dpr=1&fit=crop&s=DCb92KCZXTb4pXmEe1zPXw />
+    <p>Click button below to move the image to right</p>
+    <button type="button" onclick="moveright()" value="clickme">Click Me-></button>
+    <button type="button" onclick="moveletf()" value="clickmeright">Click Me<-</button>
+    <script>
+        let imgobject;
+        function init(){
+            imgobject = document.getElementById("ball");
+            imgobject.style.position = "relative";
+            // imgobject.style.left = '0';
+            // imgobject.style.right= '1000';
+        }
+        function moveright() {
+            imgobject.style.left=parseInt(imgobject.style.left) + 20 + 'px'
+        }
+         function moveletf() {
+             imgobject.style.right=parseInt(imgobject.style.right) - 20 + 'px'
+         }
+         window.onload = init();
+    </script>
+
+</form>
+</body>
+</html>

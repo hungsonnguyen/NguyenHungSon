@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59f76cd1-6ecd-4496-9b43-fc645dc2a3eb" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/../Module3/src/ss9_tong_quan_ung_dung_web/Thuc_hanh/src/main/java/ServletTimServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module3/src/ss9_tong_quan_ung_dung_web/untitled/src/main/java/useServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/src/ss7_thiet_ke_bo_cuc_trang_web/Bai_tap/phat_trien_trang_web_xem_hoat_hinh/phat_trien_trang_web_xem_hoat_hinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/src/ss7_thiet_ke_bo_cuc_trang_web/Bai_tap/phat_trien_trang_web_xem_hoat_hinh/phat_trien_trang_web_xem_hoat_hinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/src/ss7_thiet_ke_bo_cuc_trang_web/Bai_tap/phat_trien_trang_web_xem_hoat_hinh/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/src/ss7_thiet_ke_bo_cuc_trang_web/Bai_tap/phat_trien_trang_web_xem_hoat_hinh/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21dKAp6wErHIB3ixu4TXBwFmN5G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ss11_DSA_Stack_Queue/Thuc_hanh/Queue" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss20_Desing_pattern.Thuc_hanh.singleton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code Gym\Module 1\Github\Module2\src\ss11_DSA_Stack_Queue\Thuc_hanh\Queue" />
+      <recent name="E:\Code Gym\Module 1\Github\Module2\src\as" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code Gym\Module 1\Github\Module2\src\ss19_SOLID\Thuc_hanh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Controller">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.A" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayInputAndFindMin" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_ArrayAndMethod_in_Java.Bai_tap.ArrayInputAndFindMin" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_ArrayAndMethod_in_Java.Bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColumnInArraySum" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_ArrayAndMethod_in_Java.Bai_tap.ColumnInArraySum" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_ArrayAndMethod_in_Java.Bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam.Controller.Controller" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DienThoaiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1.controllers.DienThoaiTest" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.controller.FuramaController" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="case_study.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="APJ_EXAM_C1021G1_NguyenHungSon.Controller.ManageController" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APJ_EXAM_C1021G1_NguyenHungSon.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalInMultiArray" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_ArrayAndMethod_in_Java.Bai_tap.TotalInMultiArray" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_ArrayAndMethod_in_Java.Bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.ManageController" />
+        <item itemvalue="Application.DienThoaiTest" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.FuramaController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f76cd1-6ecd-4496-9b43-fc645dc2a3eb" name="Changes" comment="" />
+      <created>1638265387065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638265387065</updated>
+      <workItem from="1638265388388" duration="1115000" />
+      <workItem from="1638326907624" duration="4982000" />
+      <workItem from="1638334635983" duration="11126000" />
+      <workItem from="1638365808182" duration="7769000" />
+      <workItem from="1638407971838" duration="11342000" />
+      <workItem from="1638494545075" duration="3700000" />
+      <workItem from="1638499419321" duration="10889000" />
+      <workItem from="1638516274309" duration="16188000" />
+      <workItem from="1638667398735" duration="4075000" />
+      <workItem from="1638715510607" duration="745000" />
+      <workItem from="1638716293046" duration="948000" />
+      <workItem from="1638717633839" duration="688000" />
+      <workItem from="1638718349479" duration="282000" />
+      <workItem from="1638718785284" duration="23012000" />
+      <workItem from="1638801675006" duration="1432000" />
+      <workItem from="1638840504477" duration="4361000" />
+      <workItem from="1638858927603" duration="8705000" />
+      <workItem from="1638932808391" duration="2139000" />
+      <workItem from="1638947907827" duration="17561000" />
+      <workItem from="1639031233266" duration="13306000" />
+      <workItem from="1639060769745" duration="17179000" />
+      <workItem from="1639123687224" duration="5616000" />
+      <workItem from="1639228881327" duration="45397000" />
+      <workItem from="1639440543743" duration="15367000" />
+      <workItem from="1639530004735" duration="24860000" />
+      <workItem from="1639636889136" duration="20507000" />
+      <workItem from="1639703792444" duration="6661000" />
+      <workItem from="1639808599976" duration="2397000" />
+      <workItem from="1639963408663" duration="534000" />
+      <workItem from="1639964452125" duration="7464000" />
+      <workItem from="1639983212715" duration="9591000" />
+      <workItem from="1640050652037" duration="601000" />
+      <workItem from="1640061523009" duration="783000" />
+      <workItem from="1640075638730" duration="7414000" />
+      <workItem from="1640134100580" duration="589000" />
+      <workItem from="1640137128558" duration="1879000" />
+      <workItem from="1640155383273" duration="10761000" />
+      <workItem from="1640221314272" duration="6391000" />
+      <workItem from="1640241720875" duration="7827000" />
+      <workItem from="1640265460183" duration="11612000" />
+      <workItem from="1640438087692" duration="8195000" />
+      <workItem from="1640654824509" duration="7802000" />
+      <workItem from="1640673317091" duration="9508000" />
+      <workItem from="1640683404791" duration="1468000" />
+      <workItem from="1640709612670" duration="982000" />
+      <workItem from="1640746885011" duration="2505000" />
+      <workItem from="1640764200456" duration="2420000" />
+      <workItem from="1640827922075" duration="24201000" />
+      <workItem from="1640887929024" duration="20135000" />
+      <workItem from="1641222189176" duration="22128000" />
+      <workItem from="1641366304378" duration="13438000" />
+      <workItem from="1641517072345" duration="12085000" />
+      <workItem from="1641777445436" duration="4271000" />
+      <workItem from="1643104828618" duration="899000" />
+      <workItem from="1644546538235" duration="692000" />
+      <workItem from="1644802378190" duration="2794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update git" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss2_LoopInJava/Thuc_hanh/Check_is_a_prime.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss2_LoopInJava/Bai_tap/Display_Shape.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss2_LoopInJava/Bai_tap/Display_20_numberOf_Prime.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss3_ArrayAndMethod_in_Java/Bai_tap/ArrayEraseUnit.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss3_ArrayAndMethod_in_Java/Bai_tap/ColumnInArraySum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss12_Map/Bai_tap/Luyen_tap_su_dung_ArrayList_LinkedList_trong_JavaCollection_Framework/service/ProductServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss14_Thuat_toan_sap_xep/Thuc_hanh/BubbleSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/LinearEquationResolver.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/LinearEquationResolver.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/LinearEquationResolver.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/ArrayIndexOutOfBoundsException/ArrayExample.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/CalculationExample.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_Debug/Thuc_hanh/CalculationExample.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss16_ioFile/Thuc_hanh/read_and_write_file/ReadAndWriteFile.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss16_ioFile/Bai_tap/read_file_csv/ReadFileCsv.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss18_String_Regex/Thuc_hanh/CrawlSongExample/CrawlSongExample.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss20_Desing_pattern/Thuc_hanh/singleton/BookBorrower.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss5_access_modifier_staticmethod_staticproperty/Thuc_hanh/StaticMethod.java</url>
+          <line>6</line>
+          <properties class="ss5_access_modifier_staticmethod_staticproperty.Thuc_hanh.StaticMethod" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss6_KeThua/Bai_tap/CircleAndCylinder.java</url>
+          <line>75</line>
+          <properties class="ss6_KeThua.Bai_tap.Cylinder" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HomeWorkMVC/Bai3/service/StaffSv.java</url>
+          <line>129</line>
+          <properties class="HomeWorkMVC.Bai3.service.StaffSv" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HomeWorkMVC/Bai3/service/StaffSv.java</url>
+          <line>108</line>
+          <properties class="HomeWorkMVC.Bai3.service.StaffSv" method="findIt">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss16_ioFile/Thuc_hanh/read_and_write_file/ReadAndWriteFile.java</url>
+          <line>13</line>
+          <properties class="ss16_ioFile.Thuc_hanh.read_and_write_file.ReadAndWriteFile" method="readFile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/case_study/controller/FuramaController.java</url>
+          <line>17</line>
+          <properties class="case_study.controller.FuramaController" method="displayMainMenu">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="14" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Module2$Cylinder.ic" NAME="Cylinder Coverage Results" MODIFIED="1638954911168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ss6_KeThua.Bai_tap.*</FILTER>
+    </SUITE>
+  </component>
+</project>

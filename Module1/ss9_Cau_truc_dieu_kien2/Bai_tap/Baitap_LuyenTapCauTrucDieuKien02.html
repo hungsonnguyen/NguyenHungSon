@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Luyện tập cấu trúc điều kiện 02</title>
+</head><h2>[*Bài tập] Luyện tập cấu trúc điều kiện 02</h2>
+<body>
+<script>
+    // Bài 1: Chuyển từ độ C sang độ F
+    //làm bài
+    // let c=parseFloat(prompt('Nhập chỉ số nhiệt độc OC'));
+    // let f=c*9/5+32;
+    // alert('Nhiệt đô OF:'+f);
+
+    // Bài 2: Chuyển từ mét sang feet:
+    //
+    //     ft =m * 3.2808
+
+    // Bài 3: Tính diện tích hình vuông khi biết cạnh a.
+    //
+
+    //     Bài 4: Tính diện tích hình  chữ nhật khi biết 02 cạnh a, b.
+    //
+
+    //     Bài 5: Tính diện tích tam giác vuông khi biết 02 cạnh kề a, b.
+    //
+
+    //     Bài 6: Giải phương trình bậc 1.
+    //         Xét phương trình ax + b = 0
+    //làm bài
+    //     let a=parseFloat(prompt('Nhập giá trị a'));
+    //     let b=parseFloat(prompt('Nhập giá trị b'));
+    //     if(a==0&&b==0){
+    //         alert('Phương trình có vô số nghiệm');
+    //     }else if (a==0&&b>0||b<0){
+    //         alert('Phương trình vô nghiệm');
+    //     }else if (a>0||a<0){
+    //         alert('Phương trình có nghiệm duy nhât =' + -b/a);
+    //     }
+
+
+    //      Bài 7: Giải phương trình bậc 2.
+    //         Phương trình bậc 2 là phương trình có dạng ax2+bx+c=0 (a≠0) (1).
+    //         Giải phương trình bậc 2 là đi tìm các giá trị của x sao cho khi thay x
+    //         vào phương trình (1) thì thỏa mãn ax2+bx+c=0.
+    // Bước 1: Tính Δ=b2-4ac
+    //
+    // Bước 2: So sánh Δ với 0
+    //
+    // Δ < 0 => phương trình (1) vô nghiệm
+    // Δ = 0 => phương trình (1) có nghiệm kép x_{1} =x_{2} = - \frac{b}{2a}
+    // Δ > 0 => phương trình (1) có 2 nghiệm phân biệt, ta dùng công thức nghiệm sau:
+    //     x_{1} =\frac{-b+\sqrt{\triangle } }{2a} và x_{2} =\frac{-b-\sqrt{\triangle } }{2a}
+    //
+    // Mẹo nhẩm nghiệm phương trình bậc 2 nhanh:
+    //
+    //     Nếu a+b+c=0 thì x1 = 1, x2 = c/a
+    // Nếu a-b+c=0 thì x1 = -1, x2 = -c/a
+
+    //làm bài
+        // let a=parseInt(prompt('Nhập giá trị a'));
+        // let b=parseInt(prompt('Nhập giá trị b'));
+        // let c=parseInt(prompt('Nhập giá trị c'));
+        // let d= (b*b)-(4*a*c);
+        // console.log(d);
+        //
+        // if(a+b+c==0){
+        //     x1=1;
+        //     x2= c/a;
+        // }else if((a-b+c)==0){
+        //     x1=-1;
+        //     x2= -c/a;
+        //     alert('Nghiệm x1 là :'+x1 +'Nghiệm x2 là :'+ x2);
+        // }else if(d<0){
+        //     alert('Phương trình vô nghiệm');
+        // }else if(d==0){
+        //     x1=-b/(2*a);
+        //     x2=-b/(2*a);
+        //     alert('Nghiệm kép phương trình là : ' +x1)
+        // }else if(d>0){
+        //     x1=(-b+Math.sqrt(d))/(2*a);
+        //     x2=(-b-Math.sqrt(d))/(2*a);
+        // alert('Nghiệm x1 là :'+x1 +'Nghiệm x2 là :'+ x2);
+        // }
+
+
+    //Bài 8: Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là
+    //       tuổi của một người khi nhỏ 120 và lơn hơn 0.
+    //làm bài
+        // var tuoi=parseFloat(prompt('Nhập số :'));
+        // console.log(tuoi)
+        // var age=parseInt(tuoi);
+        // console.log(age)
+        // if (tuoi-age==0){
+        //     if (age>0 && age<120){
+        // alert('Là số tuổi của 1 người');}
+        //     else{alert('Không phải là số tuổi của 1 người')};
+        // }else{alert('Không phải là số tuổi của 1 người')};
+
+
+        //Bài 9: Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam giác là:
+
+            // a,b,c > 0
+            // a + b > c
+            // b + c > a
+            // a + c > b
+//làm bài
+        // let a=parseFloat(prompt('Nhập giá trị a'));
+        // let b=parseFloat(prompt('Nhập giá trị b'));
+        // let c=parseFloat(prompt('Nhập giá trị c'));
+        // if(a>0 && b>0 &&c>0){
+        //     if (a+b>c){
+        //         if(b+c>a){
+        //             if (a+c>b){
+        //                 alert('Là 3 cạnh của một tam giác');
+        //             }else {alert('Không phải là 3 cạnh của một tam giác')}
+        //         }
+        //     }else {alert('Không phải là 3 cạnh của một tam giác')}
+        // }else {alert('Không phải là 3 cạnh của một tam giác')}
+
+
+        //Bài 10: Viết chương trình tính giá điện.
+            // Viết chương trình tính tiền điện với chỉ số mới và chỉ số cũ Được nhập vào từ bàn phím. In ra màn hình chỉ số cũ, chỉ số mới và số tiền phải trả. Biết rằng 100 kWh đầu giá 1000, từ kWh 101 – 150 giá 1200, từ kWh 151 – 200 giá 2000, từ 201 trở lên giá 2500.
+
+        // let newnum = prompt("Nhập số điện mới");
+        // let oldnum = prompt('Nhập số điện cũ');
+        // let tieuhao = newnum-oldnum;
+        // if (tieuhao<=100){
+        //     alert('Số điện cũ là : '+oldnum + 'kWh'+'Số điện mới là : '+newnum + 'kWh');
+        //     let phi = tieuhao*1000;
+        //     alert('Số tiền điện phải trả là : ' + phi);
+        // }else if (tieuhao<=150){
+        //     alert('Số điện cũ là : '+oldnum + 'kWh'+'Số điện mới là : '+newnum + 'kWh');
+        //     let phi = (tieuhao-100)*1000 + 100*1000;
+        //     alert('Số tiền điện phải trả là : ' + phi);
+        // }else if (tieuhao<=200){
+        //     alert('Số điện cũ là : '+oldnum + 'kWh'+'Số điện mới là : '+newnum + 'kWh');
+        //     let phi = (tieuhao-150)*2000 + 100*1000 + 50*1200;
+        //     alert('Số tiền điện phải trả là : ' + phi);
+        // }else {
+        //     let phi = (tieuhao-200)*2500 + 100*1000 + 50*1200 + 50*2000;
+        //     alert('Số tiền điện phải trả là : ' + phi);
+        //}
+
+
+
+
+        //Bài 11: Viết chương trình tính thuế thu nhập cá nhân.
+            //Bậc 1: 4 triệu đồng/tháng 0%;
+            // Bậc 2: Trên 4 - 6 triệu đồng/tháng: 5%;
+            // Bậc 3: Trên 6 - 9 triệu đồng: 10%;
+            // Bậc 4: Trên 9 - 14 triệu đồng/tháng: 15%;
+            // Bậc 5: trên 14 - 24 triệu đồng/tháng: 20%;
+            // Bậc 6: Trên 24 - 44 triệu đồng/tháng: 25%;
+            // Bậc 7: Trên 44 - 84 triệu đồng/tháng: 30%;
+            // Bậc 8: Trên 84 triệu đồng: 35%.
+    //làm bài
+        // let cash= parseInt(prompt('Thu nhâp cá nhân'));
+        // let thue=0;
+        // switch (true) {
+        //     case cash<4:
+        //         thue=0;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>4&&cash<6:
+        //         thue= (5/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>6&&cash<9:
+        //         thue= (10/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>9&&cash<14:
+        //         thue= (15/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>14&&cash<24:
+        //         thue= (20/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>24&&cash<44:
+        //         thue= (25/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>44&&cash<84:
+        //         thue= (30/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        //     case cash>84:
+        //         thue= (35/100)*cash;
+        //         cash= cash+thue;
+        //         alert('Thu nhập nhận được sau thuế là : ' +cash)
+        //         break;
+        // }
+
+
+
+
+
+        //Bài 12: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.
+
+        let sothanggui = parseInt(prompt('Số tháng cho vay'));
+        let laisuat = 0;
+        let sotiengui = parseInt(prompt('Nhập số tiền gửi'));
+        if(sothanggui<5){
+            laisuat = (0.3/100)*sotiengui;
+           alert('Lãi suất gửi gói 5 tháng là : ' + laisuat)
+        }else if(sothanggui<10) {
+            laisuat = (0.4 / 100) * sotiengui;
+            alert('Lãi suất gửi gói 10 tháng là : ' + laisuat)
+        }else if(sothanggui<24) {
+            laisuat = (0.5 / 100) * sotiengui;
+            alert('Lãi suất gửi gói 24 tháng là : ' + laisuat)
+        }else {laisuat = (0.6 / 100) * sotiengui;
+            alert('Lãi suất gửi gói sau 24 tháng là : ' + laisuat)}
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

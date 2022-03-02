@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Luyện tập vòng lặp 01</title>
+</head>
+<body>
+<script>
+    // Bài 2: Sử dụng hàm prompt() để lấy thông tin nhiệt độ hiện tại được nhập bởi người truy cập. Nếu nhiệt độ nhập vào trên 100,
+    // yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ.
+
+    while (1){
+        let nhietdo = prompt("Nhập nhiệt độ");
+        if (nhietdo>100){
+            alert("Giảm nhiệt độ")
+        }
+        else if(nhietdo>20&&nhietdo<100){
+            alert("Nhiệt dộ bình thường");
+            break;
+        }
+        else if(nhietdo<20){
+            alert("Tăng nhiệt độ")
+        }
+    }
+
+</script>
+</body>
+</html>

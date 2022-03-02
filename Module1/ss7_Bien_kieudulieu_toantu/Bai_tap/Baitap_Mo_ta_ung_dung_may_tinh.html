@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô tả ứng dụng máy tính</title>
+</head><h2>Bài tập mô tả ứng dụng máy tính</h2>
+<body>
+<form>
+    <h3>Caculator</h3>
+    <input type="text" id="n1"/>
+    <input type="text" id="n2"/>
+    <br>
+    <br>
+    <button type="button" onclick="add()">Addition(+)</button>
+    <button type="button" onclick="sub()">Subtraction(-)</button>
+    <button type="button" onclick="multi()">Multiplication(x)</button>
+    <button type="button" onclick="div()">Division(/)</button>
+    <br>
+    <br>
+    Result Division: <p id="Result"></p>
+</form>
+<script>
+
+    function add() {
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+         result =parseFloat(n1)+parseFloat(n2);
+        document.getElementById('Result').innerText= result;
+
+    }
+    function sub() {
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+        var result =parseFloat(n1)-parseFloat(n2);
+        document.getElementById('Result').innerText= result;
+    }
+    function multi() {
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+        var result =parseFloat(n1)*parseFloat(n2);
+        document.getElementById('Result').innerText= result;
+    }
+    function div() {
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+        var result =parseFloat(n1)/parseFloat(n2);
+        document.getElementById('Result').innerText= result;
+    }
+</script>
+
+</body>
+</html>
