@@ -1,18 +1,16 @@
 package model;
 
-import java.util.Date;
-
 public class FormYt {
     private String name;
-    private Date yearOfBirth;
+    private String yearOfBirth;
     private Integer gender;
     private String nationality;
     private Integer idCard;
     private String vehicle;
     private String vehicleNumber;
     private Integer vehicleSeat;
-    private Date startDate;
-    private Date endDate;
+    private String startDate;
+    private String endDate;
     private String location14Day;
     private String city;
     private String district;
@@ -21,8 +19,8 @@ public class FormYt {
     private String phone;
     private String email;
 
-    public FormYt(String name, Date yearOfBirth, Integer gender, String nationality, Integer idCard, String vehicle,
-                  String vehicleNumber, Integer vehicleSeat, Date startDate, Date endDate, String location14Day, String city, String district, String commune, String address, String phone, String email) {
+    public FormYt(String name, String yearOfBirth, Integer gender, String nationality, Integer idCard, String vehicle,
+                  String vehicleNumber, Integer vehicleSeat, String startDate, String endDate, String location14Day, String city, String district, String commune, String address, String phone, String email) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
         this.gender = gender;
@@ -53,11 +51,11 @@ public class FormYt {
         this.name = name;
     }
 
-    public Date getYearOfBirth() {
+    public String getYearOfBirth() {
         return yearOfBirth;
     }
 
-    public void setYearOfBirth(Date yearOfBirth) {
+    public void setYearOfBirth(String yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
     }
 
@@ -109,19 +107,19 @@ public class FormYt {
         this.vehicleSeat = vehicleSeat;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public String getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
 

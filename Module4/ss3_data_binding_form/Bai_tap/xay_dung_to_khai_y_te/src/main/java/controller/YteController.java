@@ -23,6 +23,7 @@ public class YteController {
     @PostMapping("/send")
     public String save(@ModelAttribute("form")FormYt formYt, Model model){
         formYtService.addNewForm(formYt);
+        System.out.println(formYt);
         List<FormYt> formYtList = formYtService.showList();
         model.addAttribute("formList",formYtList);
         model.addAttribute("message","Send success");
