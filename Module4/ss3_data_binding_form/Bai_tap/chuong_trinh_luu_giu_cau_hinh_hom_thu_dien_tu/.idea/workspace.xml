@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f399ba3-6dec-4aab-9afd-737be8632d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/controller/YteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/model/FormYt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/service/FormYtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/java/service/FormYtServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646205200320</updated>
       <workItem from="1646205202453" duration="9760000" />
-      <workItem from="1646231367439" duration="2357000" />
+      <workItem from="1646231367439" duration="2602000" />
     </task>
     <servers />
   </component>
