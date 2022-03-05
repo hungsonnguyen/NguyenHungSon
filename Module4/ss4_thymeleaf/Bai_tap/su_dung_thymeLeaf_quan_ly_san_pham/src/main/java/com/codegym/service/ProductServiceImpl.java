@@ -55,6 +55,7 @@ public class ProductServiceImpl implements ProdcuctService {
 
     @Override
     public void save(Product product) {
+        productList.put(product.getId(), product);
 
     }
 }

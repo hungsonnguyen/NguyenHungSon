@@ -18,7 +18,6 @@ public class ProductController {
 
     @GetMapping("")
     public String home(Model model) {
-        System.out.println(prodcuctService.findAll());
         model.addAttribute("products", prodcuctService.findAll());
         return "/index";
 
@@ -32,6 +31,7 @@ public class ProductController {
 
     @PostMapping("/create")
     public String create(Product product, RedirectAttributes redirectAttributes) {
+        product.setId((int) (Math.random() * 10000));
         prodcuctService.save(product);
         redirectAttributes.addFlashAttribute("success", "Add new product success!!!");
         return "redirect:/product";
@@ -65,8 +65,8 @@ public class ProductController {
     @PostMapping("/update")
     public String update(Product product, RedirectAttributes redirectAttributes) {
         prodcuctService.update(product.getId(), product);
-//        redirectAttributes.addFlashAttribute("success", "Update is success!!!");
-        return "/index";
+        redirectAttributes.addFlashAttribute("success", "Update product success!!!");
+        return "redirect:/product";
     }
 
     @PostMapping("/search")
