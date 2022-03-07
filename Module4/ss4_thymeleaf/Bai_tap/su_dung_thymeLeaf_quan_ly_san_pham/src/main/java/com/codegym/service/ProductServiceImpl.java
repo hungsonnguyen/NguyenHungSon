@@ -1,6 +1,7 @@
 package com.codegym.service;
 
 import com.codegym.model.Product;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -9,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
+
 public class ProductServiceImpl implements ProdcuctService {
     private final static Map<Integer, Product> productList;
 
@@ -19,6 +21,10 @@ public class ProductServiceImpl implements ProdcuctService {
         productList.put(3, new Product(3, "Lenovo", 2000));
         productList.put(4, new Product(4, "Sony", 2000));
         productList.put(5, new Product(5, "LGBT", 2000));
+    }
+
+
+    public ProductServiceImpl() {
     }
 
     @Override
