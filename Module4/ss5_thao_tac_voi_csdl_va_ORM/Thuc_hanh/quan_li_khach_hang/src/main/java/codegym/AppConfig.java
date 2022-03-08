@@ -43,7 +43,7 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(appContext);
-        templateResolver.setPrefix("/WEB-INF/templates/");
+        templateResolver.setPrefix("/WEB-INF/templates/customers/");
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         return templateResolver;
