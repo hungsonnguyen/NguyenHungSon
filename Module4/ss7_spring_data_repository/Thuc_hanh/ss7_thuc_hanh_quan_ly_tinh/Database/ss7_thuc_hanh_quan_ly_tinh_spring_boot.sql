@@ -1,0 +1,4 @@
+drop DATABASE IF EXISTS ss7_thuc_hanh_quan_ly_tinh_spring_boot;
+CREATE DATABASE ss7_thuc_hanh_quan_ly_tinh_spring_boot;
+use ss7_thuc_hanh_quan_ly_tinh_spring_boot;
+
