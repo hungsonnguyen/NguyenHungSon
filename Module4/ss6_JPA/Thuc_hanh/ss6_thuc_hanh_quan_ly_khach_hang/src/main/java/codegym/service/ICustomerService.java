@@ -4,10 +4,10 @@ import codegym.model.Customer;
 
 import java.util.List;
 
-public interface IGeneralService {
+public interface ICustomerService {
     List<Customer> findAll();
-    T findById(Long id);
-    void  save(T t);
+    Customer findById(Long id);
+    void  save(Customer customer);
     void remove(Long id);
 
 }

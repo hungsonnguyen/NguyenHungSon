@@ -1,4 +1,4 @@
-package codegym.model;
+package codegym.repository;
 
 import java.util.List;
 

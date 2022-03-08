@@ -1,2 +1,7 @@
-package codegym.repository;public interface ICustomerRepository {
+package codegym.repository;
+
+import codegym.model.Customer;
+
+public interface ICustomerRepository {
+    boolean insertWithStoredProcedure(Customer customer);
 }

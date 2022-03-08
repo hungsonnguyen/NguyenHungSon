@@ -1,0 +1,2 @@
+drop DATABASE IF EXISTS ss6_thuc_hanh_quan_ly_khach_hang;
+CREATE DATABASE ss6_thuc_hanh_quan_ly_khach_hang;
