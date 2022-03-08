@@ -4,12 +4,12 @@
 <body>
 <h3>Add Customer</h3>
 <p>
-    <a th:href="@{/customer}">
+    <a th:href="@{/blog}">
         Back to customer list
     </a>
 </p>
 <div id="form">
-    <form th:action="@{/customer/save}" th:object="${customer}"
+    <form th:action="@{/blog/save}" th:object="${blog}"
           method="POST" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
@@ -17,12 +17,12 @@
             <input type="text" th:field="*{name}" required/>
         </div>
         <div>
-            <label>Email</label>
-            <input type="email" th:field="*{email}"/>
+            <label>Note</label>
+            <input type="email" th:field="*{note}"/>
         </div>
         <div>
-            <label>Address</label>
-            <input type="text" th:field="*{address}"/>
+            <label>Description</label>
+            <input type="text" th:field="*{description}"/>
         </div>
         <input type="submit" value="Save"/>
     </form>
