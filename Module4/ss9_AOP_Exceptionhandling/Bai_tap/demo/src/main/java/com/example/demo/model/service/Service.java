@@ -1,4 +1,4 @@
-package model.service;
+package com.example.demo.model.service;
 
 public class Service {
     private int service_id;

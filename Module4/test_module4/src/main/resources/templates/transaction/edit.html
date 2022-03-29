@@ -15,65 +15,60 @@
     <div class="row">
         <div class="col-3">
         </div>
-        <div class="col-9">
-            <form th:action="@{/employee/edit}" method="post" th:object="${employee}">
-                <div class="form-group">
-                    <input type="hidden" class="form-control" id="id-customer" name="id-employee" th:field="*{id}">
-                </div>
-                <div class="form-group">
-                    <label for="name-employee">Name</label>
-                    <input type="text" class="form-control" id="name-employee" name="name-employee" th:field="*{name}">
-                </div>
-                <div class="form-group">
-                    <label for="birthday">Birthday</label>
-                    <input type="date" class="form-control" id="birthday" name="birthday" th:field="*{birthday}">
-                </div>
+        <!--            Form table - edit-->
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <form th:action="@{/transaction/edit}" th:object="${transaction}" method="post">
+                    <table class="table-row-cell" id="table-create">
+                        <td><input type="hidden" class="form-control" name="name-code" th:field="*{id}"></td>
 
-                <div class="form-group">
-                    <label for="id-card-employee">Id Card </label>
-                    <input class="form-control" id="id-card-employee" name="id-card-employee" th:field="*{idCard}">
-                </div>
-                <div class="form-group">
-                    <label for="id-card-employee">Salary </label>
-                    <input class="form-control" id="salary" name="salary" th:field="*{salary}">
-                </div>
-                <div class="form-group">
-                    <label for="phone-employee">Phone</label>
-                    <input class="form-control" id="phone-employee" name="phone-employee" th:field="*{phone}">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" id="email" name="email-employee" th:field="*{email}">
-                </div>
+                        <tr scope="row">
+                            <td>Mã giao dịch</td>
+                            <td><input type="text" class="form-control" name="name-code" th:field="*{code}"></td>
+                        </tr>
+                        <tr>
+                            <td>Tên khách hàng</td>
 
-                <div class="form-group">
-                    <label for="phone-employee">Address</label>
-                    <input class="form-control" id="address" name="address" th:field="*{address}">
-                </div>
-                <div class="form-group">
-                    <label for="category">Division</label>
-                    <select class="form-control" id="category" name="idemployeeType" th:field="*{division}">
-                        <option th:each="item:${divisions}" th:value="${item.id}"
-                                th:text="${item.name}"></option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="category">Position</label>
-                    <select class="form-control" id="position" name="position" th:field="*{position}">
-                        <option th:each="item:${positions}" th:value="${item.id}"
-                                th:text="${item.name}"></option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="category">Education</label>
-                    <select class="form-control" id="education" name="education" th:field="*{educationDegree}">
-                        <option th:each="item:${educationDegrees}" th:value="${item.id}"
-                                th:text="${item.name}"></option>
-                    </select>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
+                            <td><select class="form-control" name="idDivision" th:field="*{customer}">
+                                <option th:each="item:${customers}" th:value="${item.id}"
+                                        th:text="${item.name}"></option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Loại bất động sản</td>
+                            <td><select class="form-control" name="idDivision" th:field="*{transactionType}">
+                                <option th:each="item:${transactionTypes}" th:value="${item.id}"
+                                        th:text="${item.name}"></option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td><input type="date" class="form-control" name="id-card-customer" th:field="*{date}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td><input class="form-control" name="email-customer" th:field="*{price}"></td>
+                        </tr>
+                        <tr>
+                            <td>Diện tích</td>
+                            <td><input class="form-control" name="id-card-customer" th:field="*{area}">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="btn btn-outline-primary">Lưu</button>
+                                <a href="/transaction/list" class="btn btn-outline-secondary"><span>Transaction list</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <!--            Form table - edit-end-->
     </div>
 </div>
 

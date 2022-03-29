@@ -1,6 +1,7 @@
 package com.example.exem.service.impl;
 
 
+import com.example.exem.model.TranSaction;
 import com.example.exem.repository.SessionRepository;
 import com.example.exem.service.SessionService;
 import org.hibernate.Session;
@@ -16,23 +17,23 @@ public class SessionServiceImpl implements SessionService {
     private SessionRepository sessionRepository;
 
     @Override
-    public Page<Session> findByName(String name, Pageable pageable) {
-        return sessionRepository.findAllByNameContaining(name, pageable);
+    public Page<TranSaction> findByName(String name, Pageable pageable) {
+        return sessionRepository.findAllByCodeContaining(name, pageable);
     }
 
     @Override
-    public Page<Session> findAll(Pageable pageable) {
+    public Page<TranSaction> findAll(Pageable pageable) {
         return sessionRepository.findAll(pageable);
     }
 
     @Override
-    public Session findById(int id) {
+    public TranSaction findById(int id) {
         return sessionRepository.findById(id).orElse(null);
     }
 
     @Override
-    public void save(Session customer) {
-        sessionRepository.save(customer);
+    public void save(TranSaction tranSaction) {
+        sessionRepository.save(tranSaction);
     }
 
     @Override

@@ -4,26 +4,30 @@
 <body>
 <h3>Edit Customer</h3>
 <p>
-    <a th:href="@{/templates/book}">
+    <a th:href="@{/book}">
         Back to blog list
     </a>
 </p>
 <div id="form">
-    <form action="#" th:action="@{/templates/book/update}" method="post" th:object="${book}" novalidate="novalidate">
+    <form action="#" th:action="@{/book/borrow}" method="post" th:object="${book}" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
             <label>Name</label>
-            <input type="text" th:field="*{name}"/>
+            <input readonly type="text" th:field="*{name}"/>
         </div>
         <div>
             <label>Author</label>
-            <input type="text" th:field="*{author}"/>
+            <input readonly type="text" th:field="*{author}"/>
         </div>
         <div>
             <label>Quantity</label>
-            <input type="text" th:field="*{quantity}"/>
+            <input readonly type="text" th:field="*{quantity}"/>
         </div>
-        <input type="submit" value="Edit"/>
+        <div>
+            <label>Code</label>
+            <input type="text" readonly th:value="${code}" name="code"/>
+        </div>
+        <input type="submit" value="Borrow"/>
     </form>
 </div>
 <!--<footer th:replace="/layout :: footer"></footer>-->

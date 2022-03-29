@@ -1,12 +1,10 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.repository;
+package codegym.quan_ly_khach_hang_phan_trang.repository;
 
-import codegym.ss7_thuc_hanh_quan_ly_tinh.model.Customer;
+import codegym.quan_ly_khach_hang_phan_trang.model.Customer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.web.config.EnableSpringDataWebSupport;
 import org.springframework.stereotype.Repository;
-
 
 import java.util.Optional;
 

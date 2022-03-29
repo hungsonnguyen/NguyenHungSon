@@ -1,132 +1,154 @@
-package model.employee;
+package com.example.casestudy.model.employee;
 
+import com.example.casestudy.model.user.User;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "employee")
 public class Employee {
-    private int employee_id ;
-    private String employee_name;
-    private String employee_birthday;
-    private String employee_id_card;
-    private double employee_salary;
-    private String employee_phone;
-    private String employee_email;
-    private String employee_address;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
 
-    private int position_id;
-    private int education_degree_id;
-    private int division_id;
+    private String name;
+    private String birthday;
+    private String idCard;
+    private double salary;
+    private String phone;
+    private String email;
+    private String address;
 
-    private String username;
 
-    public Employee(int employee_id, String employee_name, String employee_birthday, String employee_id_card, double employee_salary, String employee_phone, String employee_email, String employee_address, int position_id, int education_degree_id, int division_id, String username) {
-        this.employee_id = employee_id;
-        this.employee_name = employee_name;
-        this.employee_birthday = employee_birthday;
-        this.employee_id_card = employee_id_card;
-        this.employee_salary = employee_salary;
-        this.employee_phone = employee_phone;
-        this.employee_email = employee_email;
-        this.employee_address = employee_address;
-        this.position_id = position_id;
-        this.education_degree_id = education_degree_id;
-        this.division_id = division_id;
-        this.username = username;
+    @ManyToOne
+    @JoinColumn(name = "division_id", referencedColumnName = "id")
+    private Division division;
+
+    @ManyToOne
+    @JoinColumn(name = "position_id", referencedColumnName = "id")
+    private Position position;
+
+    @ManyToOne
+    @JoinColumn(name = "educationDegree_id", referencedColumnName = "id")
+    private EducationDegree educationDegree;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id",referencedColumnName = "id")
+    private User user;
+
+
+    public Employee(int id, String name, String birthday, String idCard, double salary, String phone, String email,
+                    String address, Division division, Position position, EducationDegree educationDegree, User user) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.idCard = idCard;
+        this.salary = salary;
+        this.phone = phone;
+        this.email = email;
+        this.address = address;
+        this.division = division;
+        this.position = position;
+        this.educationDegree = educationDegree;
+        this.user = user;
     }
 
     public Employee() {
     }
 
-    public int getEmployee_id() {
-        return employee_id;
+    public User getUser() {
+        return user;
     }
 
-    public void setEmployee_id(int employee_id) {
-        this.employee_id = employee_id;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    public String getEmployee_name() {
-        return employee_name;
+    public int getId() {
+        return id;
     }
 
-    public void setEmployee_name(String employee_name) {
-        this.employee_name = employee_name;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getEmployee_birthday() {
-        return employee_birthday;
+    public String getName() {
+        return name;
     }
 
-    public void setEmployee_birthday(String employee_birthday) {
-        this.employee_birthday = employee_birthday;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getEmployee_id_card() {
-        return employee_id_card;
+    public String getBirthday() {
+        return birthday;
     }
 
-    public void setEmployee_id_card(String employee_id_card) {
-        this.employee_id_card = employee_id_card;
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
     }
 
-    public double getEmployee_salary() {
-        return employee_salary;
+    public String getIdCard() {
+        return idCard;
     }
 
-    public void setEmployee_salary(double employee_salary) {
-        this.employee_salary = employee_salary;
+    public void setIdCard(String idCard) {
+        this.idCard = idCard;
     }
 
-    public String getEmployee_phone() {
-        return employee_phone;
+    public double getSalary() {
+        return salary;
     }
 
-    public void setEmployee_phone(String employee_phone) {
-        this.employee_phone = employee_phone;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
-    public String getEmployee_email() {
-        return employee_email;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setEmployee_email(String employee_email) {
-        this.employee_email = employee_email;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
-    public String getEmployee_address() {
-        return employee_address;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmployee_address(String employee_address) {
-        this.employee_address = employee_address;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public int getPosition_id() {
-        return position_id;
+    public String getAddress() {
+        return address;
     }
 
-    public void setPosition_id(int position_id) {
-        this.position_id = position_id;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public int getEducation_degree_id() {
-        return education_degree_id;
+    public Division getDivision() {
+        return division;
     }
 
-    public void setEducation_degree_id(int education_degree_id) {
-        this.education_degree_id = education_degree_id;
+    public void setDivision(Division division) {
+        this.division = division;
     }
 
-    public int getDivision_id() {
-        return division_id;
+    public Position getPosition() {
+        return position;
     }
 
-    public void setDivision_id(int division_id) {
-        this.division_id = division_id;
+    public void setPosition(Position position) {
+        this.position = position;
     }
 
-    public String getUsername() {
-        return username;
+    public EducationDegree getEducationDegree() {
+        return educationDegree;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setEducationDegree(EducationDegree educationDegree) {
+        this.educationDegree = educationDegree;
     }
 }

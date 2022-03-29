@@ -1,44 +1,44 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.service;
+package codegym.ss7_mo_rong_ung_dung_blog.service;
 
-import codegym.ss7_thuc_hanh_quan_ly_tinh.model.Province;
-import codegym.ss7_thuc_hanh_quan_ly_tinh.repository.ProvinceRepository;
+import codegym.ss7_mo_rong_ung_dung_blog.model.Category;
+import codegym.ss7_mo_rong_ung_dung_blog.repository.ICategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
 
 import java.util.Optional;
 
 
 @Service
-public class ProvinceServiceImpl implements IProvinceService {
+public class CategoryServiceImpl implements ICategoryService {
     @Autowired
-    private ProvinceRepository provinceRepository;
+    private ICategoryRepository categoryRepository;
 
 
     @Override
-    public Iterable<Province> findAll() {
-        return provinceRepository.findAll();
+    public Iterable<Category> findAll() {
+        return categoryRepository.findAll();
     }
 
     @Override
-    public Page<Province> findAll(Pageable pageable) {
-        return provinceRepository.findAll(pageable);
+    public Page<Category> findAll(Pageable pageable) {
+        return categoryRepository.findAll(pageable);
     }
 
     @Override
-    public Optional<Province> findById(int id) {
-        return provinceRepository.findById(id);
+    public Optional<Category> findById(int id) {
+        return categoryRepository.findById(id);
     }
 
     @Override
-    public void save(Province province) {
-        provinceRepository.save(province);
+    public void save(Category category) {
+        categoryRepository.save(category);
     }
 
     @Override
     public void remove(int id) {
-        provinceRepository.deleteById(id);
+        categoryRepository.deleteById(id);
     }
 }

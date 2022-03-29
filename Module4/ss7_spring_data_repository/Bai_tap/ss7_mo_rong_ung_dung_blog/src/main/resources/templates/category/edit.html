@@ -7,12 +7,12 @@
 <body>
 <h1>Edit customer</h1>
 <p>
-  <a href="/provinces">Customer list</a>
+  <a href="/category">Customer list</a>
 </p>
 <th:block th:if="${message}">
   <p th:text="${message}"></p>
 </th:block>
-<form th:action="@{/province/edit}" th:object="${province}" method="post">
+<form th:action="@{/category/edit}" th:object="${category}" method="post">
   <input th:type="hidden" name="id" th:field="*{id}">
   <table>
     <tr>
@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <td></td>
-      <td><input type="submit" value="Update province"></td>
+      <td><input type="submit" value="Update category"></td>
     </tr>
   </table>
 </form>

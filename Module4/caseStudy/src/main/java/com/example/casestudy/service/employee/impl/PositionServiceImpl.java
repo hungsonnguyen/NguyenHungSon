@@ -1,4 +1,20 @@
-package com.example.casestudy.service.employee;
+package com.example.casestudy.service.employee.impl;
 
-public class PositionServiceImpl {
+import com.example.casestudy.model.employee.Position;
+import com.example.casestudy.repository.employee.PositionRepository;
+import com.example.casestudy.service.employee.IPositionService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
+@Service
+public class PositionServiceImpl implements IPositionService {
+    @Autowired
+    PositionRepository positionRepository;
+
+    @Override
+    public Page<Position> findAll(Pageable pageable) {
+        return positionRepository.findAll(pageable);
+    }
 }

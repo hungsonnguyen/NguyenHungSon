@@ -1,13 +1,12 @@
-package com.example.ss6_tao_ung_dung_blog.service;
+package codegym.ss7_mo_rong_ung_dung_blog.service;
 
-import com.example.ss6_tao_ung_dung_blog.model.Blog;
-import com.example.ss6_tao_ung_dung_blog.repository.IBlogRepository;
+import codegym.ss7_mo_rong_ung_dung_blog.model.Blog;
+import codegym.ss7_mo_rong_ung_dung_blog.repository.IBlogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
 
 @Transactional
 @Service

@@ -1,4 +1,4 @@
-package model.user;
+package com.example.demo.model.user;
 
 public class Role {
     private int role_id;

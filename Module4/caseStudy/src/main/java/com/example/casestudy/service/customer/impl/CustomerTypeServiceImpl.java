@@ -1,7 +1,8 @@
-package com.example.casestudy.service.customer;
+package com.example.casestudy.service.customer.impl;
 
 import com.example.casestudy.model.customer.CustomerType;
 import com.example.casestudy.repository.customer.CustomerTypeRepository;
+import com.example.casestudy.service.customer.ICustomerTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

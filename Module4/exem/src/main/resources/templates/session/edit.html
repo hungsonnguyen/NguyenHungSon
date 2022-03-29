@@ -16,7 +16,7 @@
         <div class="col-3">
         </div>
         <div class="col-9">
-            <form th:action="@{/employee/edit}" method="post" th:object="${employee}">
+            <form th:action="@{/employee/edit}" method="post" th:object="${tranSaction}">
                 <div class="form-group">
                     <input type="hidden" class="form-control" id="id-customer" name="id-employee" th:field="*{id}">
                 </div>

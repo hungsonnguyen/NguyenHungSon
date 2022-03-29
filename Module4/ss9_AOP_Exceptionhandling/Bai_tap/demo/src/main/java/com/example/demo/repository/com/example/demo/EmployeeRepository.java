@@ -1,2 +1,4 @@
-package com.example.demo.repository.com.example.demo;public interface EmployeeRepository {
+package com.example.demo.repository.com.example.demo;
+
+public interface EmployeeRepository {
 }

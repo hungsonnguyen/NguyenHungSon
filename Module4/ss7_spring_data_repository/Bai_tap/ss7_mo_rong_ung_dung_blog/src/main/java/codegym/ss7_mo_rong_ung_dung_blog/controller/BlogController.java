@@ -1,8 +1,8 @@
-package com.example.ss6_tao_ung_dung_blog.controller;
+package codegym.ss7_mo_rong_ung_dung_blog.controller;
 
 
-import com.example.ss6_tao_ung_dung_blog.model.Blog;
-import com.example.ss6_tao_ung_dung_blog.service.IBlogService;
+import codegym.ss7_mo_rong_ung_dung_blog.model.Blog;
+import codegym.ss7_mo_rong_ung_dung_blog.service.IBlogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,19 +25,21 @@ public class BlogController {
     public String index(Model model) {
         List<Blog> blogs = blogService.findAll();
         model.addAttribute("blogs", blogs);
-        return "/index";
+        return "/blog/index";
     }
 
     @GetMapping("/create")
     public String create(Model model) {
         model.addAttribute("blog", new Blog());
-        return "/create";
+        return "/blog/create";
     }
 
     @PostMapping("/save")
-    public String save(Blog blog, RedirectAttributes redirectAttributes) {
+    public String save(Blog blog, RedirectAttributes redirectAttributes,Model model) {
 //        blog.setId((int) (Math.random() * 10000));
         blogService.save(blog);
+        List<Blog> blogs = blogService.findAll();
+        model.addAttribute("blogs", blogs);
         redirectAttributes.addFlashAttribute("success", "Addnew Success");
         return "redirect:/blog";
     }
@@ -45,7 +47,7 @@ public class BlogController {
     @GetMapping("/{id}/edit")
     public String edit(@PathVariable int id, Model model) {
         model.addAttribute("blog", blogService.findById(id));
-        return "/edit";
+        return "/blog/edit";
     }
 
     @PostMapping("/update")
@@ -53,14 +55,14 @@ public class BlogController {
         blogService.save(blog);
         List<Blog> blogs = blogService.findAll();
         model.addAttribute("blogs", blogs);
-        return "/index";
+        return "/blog/index";
     }
 
     @GetMapping("/{id}/delete")
     public String delete(@PathVariable int id, Model model) {
         Blog blog = blogService.findById(id);
         model.addAttribute("blog", blog);
-        return "/delete";
+        return "/blog/delete";
     }
 
     @PostMapping("/delete")
@@ -73,6 +75,6 @@ public class BlogController {
     @GetMapping("/{id}/view")
     public String view(@PathVariable int id, Model model) {
         model.addAttribute("blog",blogService.findById(id));
-        return "/view";
+        return "/blog/view";
     }
 }

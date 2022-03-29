@@ -1,6 +1,6 @@
-package com.example.ss6_tao_ung_dung_blog.service;
+package codegym.ss7_mo_rong_ung_dung_blog.service;
 
-import com.example.ss6_tao_ung_dung_blog.model.Blog;
+import codegym.ss7_mo_rong_ung_dung_blog.model.Blog;
 
 import java.util.List;
 

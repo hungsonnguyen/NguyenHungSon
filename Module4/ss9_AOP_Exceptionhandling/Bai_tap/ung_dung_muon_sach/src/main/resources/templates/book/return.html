@@ -4,12 +4,12 @@
 <body>
 <h3>Remove Customer</h3>
 <p>
-    <a th:href="@{/templates/book}">
+    <a th:href="@{/book}">
         Back to customer list
     </a>
 </p>
 <div id="form">
-    <form action="#" th:action="@{/templates/book/delete}" th:object="${book}"
+    <form th:action="@{/book/return}" th:object="${book}"
           method="POST" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
@@ -24,7 +24,8 @@
             <label>Quantity</label>
             <input type="text" th:field="*{quantity}"/>
         </div>
-        <input type="submit" value="Remove"/>
+        <div><input type="text" th:name="ssBook"></div>
+        <input type="submit" value="Save"/>
     </form>
 </div>
 <footer th:replace="/layout :: footer"></footer>

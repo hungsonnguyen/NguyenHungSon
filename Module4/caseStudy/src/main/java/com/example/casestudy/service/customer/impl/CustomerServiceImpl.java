@@ -1,7 +1,8 @@
-package com.example.casestudy.service.customer;
+package com.example.casestudy.service.customer.impl;
 
 import com.example.casestudy.model.customer.Customer;
 import com.example.casestudy.repository.customer.CustomerRepository;
+import com.example.casestudy.service.customer.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -25,8 +26,8 @@ public class CustomerServiceImpl implements ICustomerService {
     }
 
     @Override
-    public Optional<Customer> findById(int id) {
-        return customerRepository.findById(id);
+    public Customer findById(int id) {
+        return customerRepository.findById(id).orElse(null);
     }
 
     @Override

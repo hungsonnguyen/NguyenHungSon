@@ -1,4 +1,4 @@
-package com.example.text_exam_module.model;
+package com.example.exem.model;
 
 
 import javax.persistence.*;
@@ -14,9 +14,9 @@ public class SessionType {
     private String name;
 
     @OneToMany(mappedBy = "sessionType")
-    private Set<Session> sessions;
+    private Set<TranSaction> sessions;
 
-    public SessionType(int id, String name, Set<Session> sessions) {
+    public SessionType(int id, String name, Set<TranSaction> sessions) {
         this.id = id;
         this.name = name;
         this.sessions = sessions;
@@ -41,11 +41,11 @@ public class SessionType {
         this.name = name;
     }
 
-    public Set<Session> getSessions() {
+    public Set<TranSaction> getSessions() {
         return sessions;
     }
 
-    public void setSessions(Set<Session> sessions) {
+    public void setSessions(Set<TranSaction> sessions) {
         this.sessions = sessions;
     }
 }

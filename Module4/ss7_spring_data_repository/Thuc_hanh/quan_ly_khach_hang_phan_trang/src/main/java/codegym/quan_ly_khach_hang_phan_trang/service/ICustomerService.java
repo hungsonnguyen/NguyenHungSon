@@ -1,6 +1,6 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.service;
+package codegym.quan_ly_khach_hang_phan_trang.service;
 
-import codegym.ss7_thuc_hanh_quan_ly_tinh.model.Customer;
+import codegym.quan_ly_khach_hang_phan_trang.model.Customer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

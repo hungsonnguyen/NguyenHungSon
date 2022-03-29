@@ -1,4 +1,4 @@
-package model.employee;
+package com.example.demo.model.employee;
 
 public class Employee {
     private int employee_id ;

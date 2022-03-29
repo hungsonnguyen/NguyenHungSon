@@ -1,8 +1,8 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.controller;
+package codegym.quan_ly_khach_hang_phan_trang.controller;
 
 
-import codegym.ss7_thuc_hanh_quan_ly_tinh.model.Province;
-import codegym.ss7_thuc_hanh_quan_ly_tinh.service.IProvinceService;
+import codegym.quan_ly_khach_hang_phan_trang.model.Province;
+import codegym.quan_ly_khach_hang_phan_trang.service.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

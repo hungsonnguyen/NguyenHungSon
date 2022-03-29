@@ -1,4 +1,4 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.model;
+package codegym.quan_ly_khach_hang_phan_trang.model;
 
 
 import javax.persistence.*;

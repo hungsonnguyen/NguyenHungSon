@@ -1,8 +1,8 @@
-package codegym.ss7_thuc_hanh_quan_ly_tinh.controller;
+package codegym.quan_ly_khach_hang_phan_trang.controller;
 
-import codegym.ss7_thuc_hanh_quan_ly_tinh.model.Customer;
-import codegym.ss7_thuc_hanh_quan_ly_tinh.service.ICustomerService;
-import codegym.ss7_thuc_hanh_quan_ly_tinh.service.IProvinceService;
+import codegym.quan_ly_khach_hang_phan_trang.model.Customer;
+import codegym.quan_ly_khach_hang_phan_trang.service.ICustomerService;
+import codegym.quan_ly_khach_hang_phan_trang.service.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -22,6 +22,14 @@ public class CustomerController {
     @Autowired
     private ICustomerService customerService;
 
+    @RequestMapping("/searchByName" )
+    public ModelAndView searchByName(@RequestParam(name = "search") String name,@PageableDefault(value = 2,
+            sort = "id", direction = Sort.Direction.DESC) Pageable pageable){
+
+        ModelAndView modelAndView = new ModelAndView("customer/list", "customers",customerService.findByFirstName(name,pageable));
+        return modelAndView;
+    }
+
     @GetMapping("/create")
     public ModelAndView showCreateForm() {
         ModelAndView modelAndView = new ModelAndView("customer/create");
@@ -30,13 +38,7 @@ public class CustomerController {
         return modelAndView;
     }
 
-    @RequestMapping("/searchByName" )
-    public ModelAndView searchByName(@RequestParam(name = "search") String name,@PageableDefault(value = 2,
-            sort = "id", direction = Sort.Direction.DESC) Pageable pageable){
 
-        ModelAndView modelAndView = new ModelAndView("customer/list", "customers",customerService.findByFirstName(name,pageable));
-        return modelAndView;
-    }
     @PostMapping("/create")
     public ModelAndView saveCustomer(@ModelAttribute("customer") Customer customer,Pageable pageable) {
         customerService.save(customer);

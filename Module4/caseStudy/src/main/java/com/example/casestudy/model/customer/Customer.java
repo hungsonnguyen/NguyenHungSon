@@ -1,148 +1,99 @@
-package model.customer;
+package com.example.casestudy.model.customer;
 
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "customer")
 public class Customer {
-    private int customer_id;
-    private String customer_code;
-    private String customer_name;
-    private String customer_birthday;
-    private Boolean customer_gender;
-    private String customer_id_card;
-    private String customer_phone;
-    private String customer_email;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+    private String name;
+    private String birthday;
+    private Boolean gender;
+    private String idCard;
+    private String phone;
+    private String email;
 
-    private int customer_type_id;
-    private String customer_type_name;
-
-    private String customer_address;
-
-    public Customer(int customer_id, String customer_code, String customer_name, String customer_birthday, Boolean customer_gender, String customer_id_card, String customer_phone, String customer_email, int customer_type_id, String customer_type_name, String customer_address) {
-        this.customer_id = customer_id;
-        this.customer_code = customer_code;
-        this.customer_name = customer_name;
-        this.customer_birthday = customer_birthday;
-        this.customer_gender = customer_gender;
-        this.customer_id_card = customer_id_card;
-        this.customer_phone = customer_phone;
-        this.customer_email = customer_email;
-        this.customer_type_id = customer_type_id;
-        this.customer_type_name = customer_type_name;
-        this.customer_address = customer_address;
-    }
-
-    public Customer(int customer_id, String customer_code, String customer_name, String customer_birthday, Boolean customer_gender, String customer_id_card, String customer_phone, String customer_email, int customer_type_id, String customer_address) {
-        this.customer_id = customer_id;
-        this.customer_code = customer_code;
-        this.customer_name = customer_name;
-        this.customer_birthday = customer_birthday;
-        this.customer_gender = customer_gender;
-        this.customer_id_card = customer_id_card;
-        this.customer_phone = customer_phone;
-        this.customer_email = customer_email;
-        this.customer_type_id = customer_type_id;
-        this.customer_address = customer_address;
-    }
-
-    public Customer(String customer_code, String customer_name, String customer_birthday, Boolean customer_gender, String customer_id_card, String customer_phone, String customer_email, int customer_type_id, String customer_type_name, String customer_address) {
-        this.customer_code = customer_code;
-        this.customer_name = customer_name;
-        this.customer_birthday = customer_birthday;
-        this.customer_gender = customer_gender;
-        this.customer_id_card = customer_id_card;
-        this.customer_phone = customer_phone;
-        this.customer_email = customer_email;
-        this.customer_type_id = customer_type_id;
-        this.customer_type_name = customer_type_name;
-        this.customer_address = customer_address;
-    }
+    @ManyToOne
+    @JoinColumn(name = "customerType_id", referencedColumnName = "id")
+    private CustomerType customerType;
 
     public Customer() {
     }
 
-    public int getCustomer_id() {
-        return customer_id;
+    public Customer(int id, String name, String birthday, Boolean gender, String idCard, String phone, String email) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.gender = gender;
+        this.idCard = idCard;
+        this.phone = phone;
+        this.email = email;
     }
 
-    public void setCustomer_id(int customer_id) {
-        this.customer_id = customer_id;
+    public int getId() {
+        return id;
     }
 
-    public String getCustomer_code() {
-        return customer_code;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setCustomer_code(String customer_code) {
-        this.customer_code = customer_code;
+    public String getName() {
+        return name;
     }
 
-    public String getCustomer_name() {
-        return customer_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setCustomer_name(String customer_name) {
-        this.customer_name = customer_name;
+    public String getBirthday() {
+        return birthday;
     }
 
-    public String getCustomer_birthday() {
-        return customer_birthday;
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
     }
 
-    public void setCustomer_birthday(String customer_birthday) {
-        this.customer_birthday = customer_birthday;
+    public Boolean getGender() {
+        return gender;
     }
 
-    public Boolean getCustomer_gender() {
-        return customer_gender;
+    public void setGender(Boolean gender) {
+        this.gender = gender;
     }
 
-    public void setCustomer_gender(Boolean customer_gender) {
-        this.customer_gender = customer_gender;
+    public String getIdCard() {
+        return idCard;
     }
 
-    public String getCustomer_id_card() {
-        return customer_id_card;
+    public void setIdCard(String idCard) {
+        this.idCard = idCard;
     }
 
-    public void setCustomer_id_card(String customer_id_card) {
-        this.customer_id_card = customer_id_card;
+    public String getPhone() {
+        return phone;
     }
 
-    public String getCustomer_phone() {
-        return customer_phone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
-    public void setCustomer_phone(String customer_phone) {
-        this.customer_phone = customer_phone;
+    public String getEmail() {
+        return email;
     }
 
-    public String getCustomer_email() {
-        return customer_email;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void setCustomer_email(String customer_email) {
-        this.customer_email = customer_email;
+    public CustomerType getCustomerType() {
+        return customerType;
     }
 
-    public int getCustomer_type_id() {
-        return customer_type_id;
-    }
-
-    public void setCustomer_type_id(int customer_type_id) {
-        this.customer_type_id = customer_type_id;
-    }
-
-    public String getCustomer_address() {
-        return customer_address;
-    }
-
-    public void setCustomer_address(String customer_address) {
-        this.customer_address = customer_address;
-    }
-
-    public String getCustomer_type_name() {
-        return customer_type_name;
-    }
-
-    public void setCustomer_type_name(String customer_type_name) {
-        this.customer_type_name = customer_type_name;
+    public void setCustomerType(CustomerType customerType) {
+        this.customerType = customerType;
     }
 }

@@ -1,4 +1,4 @@
-package com.example.ss6_tao_ung_dung_blog.model;
+package codegym.ss7_mo_rong_ung_dung_blog.model;
 
 
 import javax.persistence.*;
@@ -18,6 +18,20 @@ public class Blog {
         this.name = name;
         this.note = note;
         this.description = description;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "category_id",
+    referencedColumnName = "id")
+    private Category category;
+
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
     public Blog() {

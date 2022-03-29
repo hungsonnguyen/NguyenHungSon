@@ -1,4 +1,4 @@
-package com.example.text_exam_module.model;
+package com.example.exem.model;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -16,12 +16,12 @@ public class Customer {
     private String email;
 
     @OneToMany(mappedBy = "customer")
-    private Set<Session> sessions;
+    private Set<TranSaction> sessions;
 
     public Customer() {
     }
 
-    public Customer(int id, String code, String name, String phone, String email, Set<Session> sessions) {
+    public Customer(int id, String code, String name, String phone, String email, Set<TranSaction> sessions) {
         this.id = id;
         this.code = code;
         this.name = name;
@@ -70,11 +70,11 @@ public class Customer {
         this.email = email;
     }
 
-    public Set<Session> getSessions() {
+    public Set<TranSaction> getSessions() {
         return sessions;
     }
 
-    public void setSessions(Set<Session> sessions) {
+    public void setSessions(Set<TranSaction> sessions) {
         this.sessions = sessions;
     }
 }

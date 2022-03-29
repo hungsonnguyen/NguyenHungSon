@@ -1,4 +1,4 @@
-package model.contract;
+package com.example.casestudy.model.contract;
 
 public class Contract_detail {
     private int contract_detail;

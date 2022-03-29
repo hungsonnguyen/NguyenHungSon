@@ -1,2 +1,125 @@
-package com.example.casestudy.controller;public class CustomerController {
+package com.example.casestudy.controller;
+
+import com.example.casestudy.dto.CustomerDto;
+import com.example.casestudy.model.customer.Customer;
+import com.example.casestudy.model.customer.CustomerType;
+import com.example.casestudy.service.customer.ICustomerService;
+import com.example.casestudy.service.customer.ICustomerTypeService;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.validation.Valid;
+import java.util.Optional;
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+    @Autowired
+    private ICustomerService customerService;
+
+    @Autowired
+    private ICustomerTypeService customerTypeService;
+
+    @GetMapping("/list")
+    public ModelAndView listCustomers(@PageableDefault(value = 3, sort = "id", direction = Sort.Direction.ASC) Pageable pageable) {
+        Page<Customer> customers = customerService.findAll(pageable);
+        ModelAndView modelAndView = new ModelAndView("customer/index");
+        modelAndView.addObject("customers", customers);
+        return modelAndView;
+    }
+
+    @RequestMapping("/searchByName")
+    public ModelAndView searchByName(@RequestParam(name = "search") String name, @PageableDefault(value = 2,
+            sort = "id", direction = Sort.Direction.DESC) Pageable pageable) {
+
+        ModelAndView modelAndView = new ModelAndView("customer/index", "customers", customerService.findByName(name, pageable));
+        return modelAndView;
+    }
+
+    @GetMapping("/create")
+    public ModelAndView showCreateForm(Pageable pageable) {
+        ModelAndView modelAndView = new ModelAndView("customer/create");
+        Page<CustomerType> customerTypes = customerTypeService.findAll(pageable);
+        modelAndView.addObject("customerTypes", customerTypes);
+        modelAndView.addObject("customerDto", new CustomerDto());
+        return modelAndView;
+    }
+
+
+    @PostMapping("/create")
+    public String saveCustomer(@Valid @ModelAttribute CustomerDto customerDto, BindingResult bindingResult, @PageableDefault(value = 5, sort = "id",
+            direction = Sort.Direction.ASC) Pageable pageable, Model model, RedirectAttributes redirectAttributes) {
+        if (bindingResult.hasFieldErrors()) {
+            Page<CustomerType> customerTypes = customerTypeService.findAll(pageable);
+            model.addAttribute("customerTypes", customerTypes);
+            return "customer/create";
+        } else {
+            Customer customer = new Customer();
+            BeanUtils.copyProperties(customerDto, customer);
+            customerService.save(customer);
+            redirectAttributes.addFlashAttribute("message", "New customer created successfully");
+            return "redirect:/customer/list";
+        }
+
+    }
+
+
+    @GetMapping("/edit/{id}")
+    public ModelAndView showEditForm(@PathVariable int id, Pageable pageable) {
+//        Optional<Customer> customer = customerService.findById(id);
+        if (customerService.findById(id)!=null) {
+            ModelAndView modelAndView = new ModelAndView("customer/edit");
+            Page<CustomerType> customerTypes = customerTypeService.findAll(pageable);
+            modelAndView.addObject("customer", customerService.findById(id));
+            modelAndView.addObject("customerTypes", customerTypes);
+
+            return modelAndView;
+        } else {
+            ModelAndView modelAndView = new ModelAndView("/error.404");
+            return modelAndView;
+        }
+    }
+
+    @PostMapping("/edit")
+    public String updateCustomer(@ModelAttribute("customer") Customer customer, Pageable pageable, Model model, RedirectAttributes redirectAttributes) {
+        customerService.save(customer);
+        Page<Customer> customers = customerService.findAll(pageable);
+        model.addAttribute("customers", customers);
+        redirectAttributes.addFlashAttribute("message", "New customer edited successfully");
+        return "redirect:/customer/list";
+    }
+
+//    @GetMapping("/delete/{id}")
+//    public ModelAndView showDeleteForm(@PathVariable int id) {
+//        Optional<Customer> customer = customerService.findById(id);
+//        if (customer.isPresent()) {
+//            ModelAndView modelAndView = new ModelAndView("customer/delete");
+//            modelAndView.addObject("customer", customer.get());
+//            return modelAndView;
+//
+//        } else {
+//            ModelAndView modelAndView = new ModelAndView("/error.404");
+//            return modelAndView;
+//        }
+//    }
+
+    @PostMapping("/delete")
+    public String deleteCustomer(@RequestParam(name = "id") int id, @PageableDefault(value = 2, sort = "id", direction = Sort.Direction.ASC) Pageable pageable, Model model) {
+        customerService.remove(id);
+        Page<Customer> customers = customerService.findAll(pageable);
+        model.addAttribute("customers", customers);
+        model.addAttribute("message", "Customer updated successfully");
+        return "redirect:/customer/list";
+    }
 }

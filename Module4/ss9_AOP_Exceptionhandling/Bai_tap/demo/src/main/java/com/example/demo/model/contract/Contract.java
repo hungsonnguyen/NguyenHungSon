@@ -1,4 +1,4 @@
-package model.contract;
+package com.example.demo.model.contract;
 
 public class Contract {
     private int contract_id;

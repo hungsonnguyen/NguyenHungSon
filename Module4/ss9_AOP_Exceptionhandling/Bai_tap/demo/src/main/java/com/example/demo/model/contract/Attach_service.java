@@ -1,4 +1,4 @@
-package model.contract;
+package com.example.demo.model.contract;
 
 public class Attach_service {
     private String attach_service_id;
