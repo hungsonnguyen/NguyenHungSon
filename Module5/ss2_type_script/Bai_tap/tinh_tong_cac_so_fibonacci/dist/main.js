@@ -5,7 +5,6 @@ function Fibonacci(n) {
     else {
         return Fibonacci(n - 1) + Fibonacci(n - 2);
     }
-    return Fibonacci(n - 1);
 }
 let array = [];
 let total = 0;
