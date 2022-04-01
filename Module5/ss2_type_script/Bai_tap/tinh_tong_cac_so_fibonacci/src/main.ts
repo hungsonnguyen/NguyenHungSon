@@ -1,5 +1,5 @@
 function Fibonacci(n: number): number {
-    if (n<=2){
+    if (n<2){
         return 1;
     }else {
         return Fibonacci(n-1)+Fibonacci(n-2);
