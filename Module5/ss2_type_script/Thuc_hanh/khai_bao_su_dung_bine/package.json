@@ -1,0 +1,6 @@
+{
+  "name": "khai_bao_su_dung_bine",
+  "version": "1.0.0",
+  "dependencies": {    "typescript": "^4.1.5"
+  }
+}
