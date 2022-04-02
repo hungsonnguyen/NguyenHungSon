@@ -14,6 +14,9 @@
       <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/controller/TransactionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/dto/TransactionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/dto/TransactionDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Customer.java" afterDir="false" />
@@ -94,7 +97,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-using-boostrap" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -107,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648863272329</updated>
       <workItem from="1648863273580" duration="1370000" />
+      <workItem from="1648864964907" duration="141000" />
     </task>
     <servers />
   </component>

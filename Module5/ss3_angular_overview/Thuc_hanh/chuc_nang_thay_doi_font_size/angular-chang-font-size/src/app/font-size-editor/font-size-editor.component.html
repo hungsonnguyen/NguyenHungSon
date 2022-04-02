@@ -1,0 +1,12 @@
+<h2>Font size editor</h2>
+<div>
+  <label>Enter font size (px)</label>
+<!--  Cách 1: Làm theo sự kiện change bằng cách bắt sự kiện và gọi hàm từ component.ts-->
+<!--  <input #element type="range" min="9" max="72" value="18" (change)="changeFontSizeValue(element.value)">-->
+
+<!--  Cách 2: Là theo cách sử dụng two way binding bằng cách thêm [(ngModel)] vào thẻ input-->
+  <input type="range" min="9" max="72" value="18" [(ngModel)]="fontSize">
+</div>
+<p class="output" [style.fontSize.px]="fontSize">
+  Lorem ipsum dolor sit amet.
+</p>
