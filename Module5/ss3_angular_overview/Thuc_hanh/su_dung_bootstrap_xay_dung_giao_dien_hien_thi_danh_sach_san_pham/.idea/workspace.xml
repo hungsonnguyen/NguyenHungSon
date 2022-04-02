@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5096209-f5bd-4fa3-a60b-a6df85d50767" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/.idea/cau_lenh_dieu_kien_va_vong_lap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/.idea/cau_lenh_dieu_kien_vong_lap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/khai_bao_su_dung_bine/.idea/khai_bao_su_dung_bine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/.idea/kiem_tra_so_nguyen_to.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/promise/.idea/promise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/.idea/xay_dung_doi_tuong_hinh_hoc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chuc_nang_thay_doi_font_size/.idea/chuc_nang_thay_doi_font_size.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/hien_thi_thong_tin_thu_nuoi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hien_thi_thong_tin_thu_nuoi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/controller/TransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/dto/TransactionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/dto/TransactionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/model/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/TransactionTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/repsository/TransactionTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/java/com/example/exam_module_4/service/TransactionTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/resources/templates/transaction/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/exam_module_4/src/main/resources/templates/transaction/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/chuong_trinh_luu_giu_cau_hinh_hom_thu_dien_tu/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/chuong_trinh_luu_giu_cau_hinh_hom_thu_dien_tu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/chuong_trinh_luu_giu_cau_hinh_hom_thu_dien_tu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/chuong_trinh_luu_giu_cau_hinh_hom_thu_dien_tu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/build/libs/xay_dung_to_khai_y_te-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/build/libs/xay_dung_to_khai_y_te-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss3_data_binding_form/Bai_tap/xay_dung_to_khai_y_te/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss9_AOP_Exceptionhandling/Thuc_hanh/Bo_sung_aspect_cho_ung_dung_quan_ly_khach_hang/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss9_AOP_Exceptionhandling/Thuc_hanh/Bo_sung_aspect_cho_ung_dung_quan_ly_khach_hang/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/model/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/repository/ProductTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/repository/ProductTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProducTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProducTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/java/com/example/test_examination_module4/service/ProductTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/resources/templates/product/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/resources/templates/product/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/resources/templates/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_examination_module4/src/main/resources/templates/product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/java/com/example/test_module4/model/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/resources/templates/transaction/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/resources/templates/transaction/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/resources/templates/transaction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/test_module4/src/main/resources/templates/transaction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_va_vong_lap/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/cau_lenh_dieu_kien_vong_lap/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/khai_bao_su_dung_bine/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/khai_bao_su_dung_bine/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/khai_bao_su_dung_bine/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/khai_bao_su_dung_bine/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/kiem_tra_so_nguyen_to/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/promise/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/promise/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/IArea.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/IArea.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/Shape.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/Shape.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/Thuc_hanh/xay_dung_doi_tuong_hinh_hoc/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="27DmwyaSBAUO0yOVSAl4B0Gh7mW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5096209-f5bd-4fa3-a60b-a6df85d50767" name="Changes" comment="" />
+      <created>1648863272329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648863272329</updated>
+      <workItem from="1648863273580" duration="1370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
