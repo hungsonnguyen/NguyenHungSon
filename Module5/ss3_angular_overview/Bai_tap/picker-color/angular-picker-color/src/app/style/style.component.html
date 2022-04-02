@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6 mx-auto">
+      <table>
+        <tr>
+          <td>Enter your word</td>
+          <td>
+            <input type="text" [(ngModel)]="word">
+          </td>
+        </tr>
+        <tr>
+          <td>Enter your color:</td>
+          <td>
+            <input #colorStyle type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>Select</td>
+          <td>
+            <button (click)="changeFormatColor(colorStyle.value)">Change</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Or</td>
+          <td>
+            <button (click)="changeRedColor(colorStyle.value)">Red</button>
+            <button (click)="changeBlueColor(colorStyle.value)">Blue</button>
+            <button (click)="changeYellowtColor(colorStyle.value)">Yellow</button>
+            <button (click)="changeGreentColor(colorStyle.value)">Green</button>
+
+          </td>
+        </tr>
+        <tr>
+          <td>Out put</td>
+          <td>
+            <p [style.color]="color">{{word}}</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
