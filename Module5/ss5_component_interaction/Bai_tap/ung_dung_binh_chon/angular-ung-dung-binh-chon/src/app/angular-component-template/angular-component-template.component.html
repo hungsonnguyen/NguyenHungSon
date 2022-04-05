@@ -1,0 +1,15 @@
+<p>{{rate.value}}</p>
+
+<p>
+  <button (click)="ratingValue(this.item.value)"
+          *ngFor="let item of units;index as i"
+          style="width: 30px;height: 30px"
+          [style.backgroundColor]="item.active? 'red':'pink'"
+  >{{item.value}}</button>
+
+</p>
+<p>
+  <button *ngFor="let item of units;index as i"
+          style="width: 30px;height: 30px"
+  >{{item.value}}</button >
+</p>
