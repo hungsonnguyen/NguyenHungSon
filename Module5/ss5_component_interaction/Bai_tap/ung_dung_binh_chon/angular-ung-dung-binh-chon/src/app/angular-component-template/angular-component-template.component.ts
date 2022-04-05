@@ -32,9 +32,20 @@ export class AngularComponentTemplateComponent implements OnInit {
 
   ratingValue(value: number) {
     this.rate.value = value;
+    let count = 0;
+    let minus = 0
     for (let i = 0; i < value; i++) {
       this.units[i].active = true;
+      count++;
     }
+    console.log("count"+count)
+    for (let j = count; j < this.units.length; j++) {
+      this.units[j].active = false;
+      minus++;
+    }
+    console.log("minus"+minus)
+    console.log("count"+count)
+
     value = 0;
     for (let j = 0; j < this.units.length; j++) {
       console.log(this.units[j])
