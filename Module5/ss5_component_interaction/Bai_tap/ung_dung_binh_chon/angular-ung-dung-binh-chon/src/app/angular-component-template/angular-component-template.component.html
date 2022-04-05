@@ -1,4 +1,4 @@
-<p>{{rate.value}}</p>
+<p *ngIf="rate.value">{{rate.value}}</p>
 
 <p>
   <button (click)="ratingValue(this.item.value)"
@@ -8,8 +8,4 @@
   >{{item.value}}</button>
 
 </p>
-<p>
-  <button *ngFor="let item of units;index as i"
-          style="width: 30px;height: 30px"
-  >{{item.value}}</button >
-</p>
+
