@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-6 mx-auto " style="font-family: 'Times New Roman'">
+     <div class="row">
+       <h2 class="text-center text-info text-right">Count down</h2>
+       <input class="form-control embed-responsive text-lg-right" style="text-align: right;width: 300px" type="number" #element (change)=" changeTime(element.value)" [value]="count">
+     </div>
+      <div class="mx-auto row">
+        <button class="m-1 btn btn-info" (click)="reset()">Reset</button>
+        <button class="m-1 btn btn-success" (click)="setIntvalFunc()">Start</button>
+        <button class="m-1 btn btn-danger" (click)="stopIntval()">Stop</button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
