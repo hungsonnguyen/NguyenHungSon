@@ -1,0 +1,168 @@
+<h2>Register form</h2>
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+            <form (ngSubmit)="onSubmit()" [formGroup]="registerForm" novalidate>
+
+              <div class="row">
+                <div class="col-md-12 mb-4 form-outline">
+                  <input type="text" id="firstName"
+                         class="form-control form-control-lg"
+                         name="email"
+                         formControlName="email"/>
+                  <div class="alert alert-danger" role="alert" *ngIf="!email.valid && email.touched">
+                    <div *ngIf="email?.errors?.required">
+                      Please enter your email!
+                    </div>
+                    <div *ngIf="email.errors.email">
+                      Please enter following form email!
+                    </div>
+                  </div>
+                  <label class="form-label font-weight-bold" for="firstName">Email</label>
+                </div>
+              </div>
+
+
+              <fieldset formGroupName="passWordGroup">
+                <div class="row">
+
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="password"
+                             id="password"
+                             class="form-control"
+                             formControlName="passWord"/>
+                      <div *ngIf="passWord.touched && passWord?.errors?.required"
+                           class="alert alert-danger">
+                        Please enter your password!
+                      </div>
+                      <label class="form-label font-weight-bold" for="password">Password</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="password"
+                             id="repeatpassword"
+                             class="form-control"
+                             formControlName="passWordConfig"/>
+
+                      <div class="alert alert-danger"
+                        *ngIf="registerForm.hasError('passwordnotmatch',['passWordGroup']) &&passWordConfig.touched">
+                        Password does not match!
+                      </div>
+                      <div *ngIf="passWordConfig?.errors?.required && passWordConfig.touched " class="alert alert-danger">
+                        Password config enter!
+                      </div>
+                      <label class="form-label font-weight-bold" for="repeatpassword">Confirm your password</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+
+
+              <div class="row">
+
+                <div class="col-md-6 mb-4 d-flex align-items-center form-outline datepicker w-100">
+                  <div class="form-outline datepicker w-100">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      id="country"
+                      name="country"
+                    formControlName="country"/>
+                    <div class="alert alert-danger" role="alert" *ngIf="country.invalid && country.touched">
+                      Please enter your country!
+                    </div>
+                    <label for="country" class="form-label font-weight-bold">Country</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4 d-flex align-items-center form-outline datepicker w-100">
+                  <div class="form-outline datepicker w-100">
+                    <input
+                      type="date"
+                      class="form-control form-control-lg"
+                      id="birthdayDate"
+                      name="age"
+                      formControl="age"
+                    />
+                    <label for="birthdayDate" class="form-label font-weight-bold">Age
+                      <span class="text-danger" *ngIf="age?.hasError('ageUnder') && age.touched" >
+                           : Please select your date of birth!
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="row">
+
+                <div class="col-md-6 mb-4 pb-2">
+                  <div class="form-outline">
+                    <input type="number"
+                           id="phoneNumber"
+                           class="form-control form-control-lg"
+                           formControlName="phone"/>
+                    <div class="alert alert-danger" role="alert" *ngIf="phone?.errors?.required && phone.touched">
+                      Please enter your number!
+                    </div>
+                    <div class="alert alert-danger" role="alert" *ngIf="phone?.hasError('pattern') && phone.touched">
+                      Please enter follow +84-000-000-00!
+                    </div>
+                    <label class="form-label font-weight-bold" for="phoneNumber">Phone Number</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4 pb-2">
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="femaleGender"
+                      value="Female"
+                      formControl="gender"
+                      checked/>
+                    <label class="form-check-label" for="femaleGender">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="maleGender"
+                      formControl="gender"
+                      value="Male"/>
+                    <label class="form-check-label" for="maleGender">Male</label>
+                  </div>
+                  <div>
+                    <h6 class="mb-2 pb-1">Gender: </h6>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="mt-4 pt-2">
+                <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
