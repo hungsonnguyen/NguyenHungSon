@@ -16,8 +16,8 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
     function comparePassword(passWord: AbstractControl) {
       const checkPass = passWord.value;
-      console.log(checkPass.passWord)
-      console.log(checkPass.passWordConfig)
+      // console.log(checkPass.passWord)
+      // console.log(checkPass.passWordConfig)
       if (checkPass.passWord === checkPass.passWordConfig){
         return null;
       }
@@ -31,8 +31,8 @@ export class RegisterComponent implements OnInit {
       const birthday = Date.now() - birth.getTime() -86400000;
       const time = new Date(birthday);
       console.log(time.getUTCFullYear());
-      const age = time.getUTCFullYear()- 2004;
-      console.log(age);
+      const age = time.getUTCFullYear()- 1970;
+      console.log('age:'+age);
       if (age<18){
         return {"ageUnder" : true}
       }

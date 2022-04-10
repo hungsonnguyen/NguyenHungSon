@@ -91,11 +91,14 @@
                       class="form-control form-control-lg"
                       id="birthdayDate"
                       name="age"
-                      formControl="age"
+                      formControlName="age"
                     />
                     <label for="birthdayDate" class="form-label font-weight-bold">Age
-                      <span class="text-danger" *ngIf="age?.hasError('ageUnder') && age.touched" >
-                           : Please select your date of birth!
+                      <span class="text-danger" *ngIf="age.hasError('ageUnder') && age.touched" >
+                           : Please not under 18!
+                      </span>
+                      <span class="text-danger" *ngIf="age?.errors?.required && age.touched" >
+                           : Select date!
                       </span>
                     </label>
                   </div>
@@ -108,14 +111,14 @@
 
                 <div class="col-md-6 mb-4 pb-2">
                   <div class="form-outline">
-                    <input type="number"
+                    <input type="text"
                            id="phoneNumber"
                            class="form-control form-control-lg"
                            formControlName="phone"/>
                     <div class="alert alert-danger" role="alert" *ngIf="phone?.errors?.required && phone.touched">
                       Please enter your number!
                     </div>
-                    <div class="alert alert-danger" role="alert" *ngIf="phone?.hasError('pattern') && phone.touched">
+                    <div class="alert alert-danger" role="alert" *ngIf="phone?.errors?.pattern && phone.touched">
                       Please enter follow +84-000-000-00!
                     </div>
                     <label class="form-label font-weight-bold" for="phoneNumber">Phone Number</label>
@@ -131,7 +134,7 @@
                       name="gender"
                       id="femaleGender"
                       value="Female"
-                      formControl="gender"
+                      formControlName="gender"
                       checked/>
                     <label class="form-check-label" for="femaleGender">Female</label>
                   </div>
@@ -141,7 +144,7 @@
                       type="radio"
                       name="gender"
                       id="maleGender"
-                      formControl="gender"
+                      formControlName="gender"
                       value="Male"/>
                     <label class="form-check-label" for="maleGender">Male</label>
                   </div>
@@ -154,7 +157,7 @@
 
 
               <div class="mt-4 pt-2">
-                <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                <input class="btn btn-primary btn-lg" type="submit" value="Submit" [disabled]="registerForm.invalid" />
               </div>
 
             </form>
