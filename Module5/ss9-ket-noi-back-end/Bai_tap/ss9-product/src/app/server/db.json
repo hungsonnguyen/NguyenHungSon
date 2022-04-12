@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "nguyenưqe"
+    },
+    {
+      "id": 123,
+      "name": "123q"
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "son",
+      "price": 4343,
+      "category": {
+        "id": 1,
+        "name": "sach"
+      },
+      "description": "sách lớp 1"
+    },
+    {
+      "id": 123,
+      "name": "thư tín",
+      "price": 123,
+      "category": "",
+      "description": "ađá"
+    },
+    {
+      "id": 11,
+      "name": "11111",
+      "price": 11111,
+      "category": {
+        "id": 123,
+        "name": "123q"
+      },
+      "description": "1111"
+    }
+  ]
+}
