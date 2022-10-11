@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-8 mx-auto" style="font-family: 'Times New Roman'">
+      <h3 class="btn-outline-info text-success">Information</h3>
+      <table class="table table-bordered table-striped">
+        <tr>
+          <td>Mã giao dịch</td>
+          <td>{{transaction?.magiaodich}}</td>
+        </tr>
+        <tr>
+          <td>Loại giao dịch</td>
+          <td>{{transaction?.transactionType}}</td>
+        </tr>
+        <tr>
+          <td>Ngày giao dịch</td>
+          <td>{{transaction?.date}}</td>
+        </tr>
+        <tr>
+          <td>Đơn giá</td>
+          <td>{{transaction?.price}}</td>
+        </tr>
+        <tr>
+          <td>Diện tích</td>
+          <td>{{transaction?.area}}</td>
+        </tr>
+        <tr>
+          <td>Tên khách hàng</td>
+          <td>{{transaction?.customer.name}}</td>
+        </tr>
+        <tr>
+          <td>Số điện thoại</td>
+          <td>{{transaction?.customer.phone}}</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>{{transaction?.customer.email}}</td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-danger mr-3" (click)="deleteDialog(transaction.id)">Delete</button></td>
+          <td><button mat-dialog-close class="btn btn-warning mr-3">Back</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
